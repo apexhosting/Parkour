@@ -3,5 +3,4 @@ Welcome:
   lines:
   - 'ICON: red_mushroom'
   - '&3&lWelcome To Parkour {player}'
-  - '&2Use /trails for some extra fun'
   - '&5You have won %parkour_parkoins% times'

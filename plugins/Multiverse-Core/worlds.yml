@@ -96,7 +96,7 @@ worlds:
   Straight_Parkour:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Straight_Parkour
     color: WHITE
     style: NORMAL
     pvp: 'true'

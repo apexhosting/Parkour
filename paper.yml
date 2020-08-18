@@ -10,9 +10,12 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 verbose: false
-config-version: 19
+config-version: 20
 settings:
+  console-has-all-permissions: false
+  chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
   region-file-cache-size: 256
@@ -36,6 +39,10 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  async-chunks:
+    threads: -1
+  unsupported-settings:
+    allow-piston-duplication: false
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -56,6 +63,17 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    per-player-mob-spawns: false
+    phantoms-do-not-spawn-on-creative-players: true
+    phantoms-only-attack-insomniacs: true
+    light-queue-size: 20
+    seed-based-feature-search: true
+    fix-zero-tick-instant-grow-farms: true
+    portal-create-radius: 16
+    iron-golems-can-spawn-in-air: false
+    entities-target-with-follow-range: false
+    zombie-villager-infection-chance: -1.0
+    delay-chunk-unloads-by: 10s
     disable-teleportation-suffocation-check: false
     remove-corrupt-tile-entities: false
     fixed-chunk-inhabited-time: -1
@@ -101,6 +119,8 @@ world-settings:
     all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 1
     game-mechanics:
+      disable-pillager-patrols: false
+      nerf-pigmen-from-nether-portals: false
       scan-for-legacy-ender-dragon: true
       disable-chest-cat-detection: false
       shield-blocking-delay: 5
@@ -109,6 +129,14 @@ world-settings:
       disable-sprint-interruption-on-attack: false
       disable-relative-projectile-velocity: false
       disable-unloaded-chunk-enderpearl-exploit: true
+      pillager-patrols:
+        spawn-chance: 0.2
+        spawn-delay:
+          per-player: false
+          ticks: 12000
+        start:
+          per-player: false
+          day: 5
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -165,3 +193,8 @@ world-settings:
       replacement-blocks:
       - stone
       - oak_planks
+    viewdistances:
+      no-tick-view-distance: -1
+    generator-settings:
+      flat-bedrock: false
+    baby-zombie-movement-modifier: 0.5
