@@ -1,4 +1,5 @@
 # Parkour
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Parkour+Thumbnail.png)
 
 ## Plugin List
 
