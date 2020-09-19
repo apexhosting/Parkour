@@ -10,10 +10,12 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
+  max-joins-per-tick: 3
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
   console-has-all-permissions: false
   chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: true
@@ -42,7 +44,17 @@ settings:
   async-chunks:
     threads: -1
   unsupported-settings:
+    allow-headless-pistons: false
+    allow-permanent-block-break-exploits: false
     allow-piston-duplication: false
+    allow-headless-pistons-readme: This setting controls if players should be able
+      to create headless pistons.
+    allow-permanent-block-break-exploits-readme: This setting controls if players
+      should be able to break bedrock, end portals and other intended to be permanent
+      blocks.
+    allow-piston-duplication-readme: This setting controls if player should be able
+      to use TNT duplication, but this also allows duplicating carpet, rails and potentially
+      other items
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -63,6 +75,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    zombies-target-turtle-eggs: true
     per-player-mob-spawns: false
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
