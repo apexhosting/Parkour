@@ -1,8 +1,77 @@
 # ==== Parkour Config ==== #
+ParkourTool:
+  LastCheckpoint:
+    Material: ARROW
+    Slot: 0
+  HideAll:
+    Material: BONE
+    Slot: 1
+    Global: true
+    ActivateOnJoin: false
+  HideAllEnabled:
+    Material: BONE
+    Slot: 1
+  Leave:
+    Material: OAK_SAPLING
+    Slot: 2
+  Restart:
+    Material: STICK
+    Slot: 3
+  Freedom:
+    Material: REDSTONE_TORCH
+    Slot: 4
+  Rockets:
+    Material: FIREWORK_ROCKET
+    Slot: 4
+Sounds:
+  Enabled: true
+  SecondIncrement:
+    Enabled: true
+    Sound: BLOCK_NOTE_BLOCK_PLING
+    Volume: 0.05
+    Pitch: 1.75
+  SecondDecrement:
+    Enabled: true
+    Sound: BLOCK_NOTE_BLOCK_PLING
+    Volume: 0.05
+    Pitch: 4.0
+  PlayerDeath:
+    Enabled: true
+    Sound: ENTITY_PLAYER_DEATH
+    Volume: 0.1
+    Pitch: 1.75
+  CheckpointAchieved:
+    Enabled: true
+    Sound: BLOCK_NOTE_BLOCK_CHIME
+    Volume: 0.1
+    Pitch: 1.75
+  CourseFinished:
+    Enabled: true
+    Sound: BLOCK_CONDUIT_ACTIVATE
+    Volume: 0.1
+    Pitch: 1.75
+  CourseFailed:
+    Enabled: true
+    Sound: BLOCK_CONDUIT_DEACTIVATE
+    Volume: 0.1
+    Pitch: 1.75
+Plugin:
+  BountifulAPI:
+    Enabled: true
+  Vault:
+    Enabled: true
+  PlaceholderAPI:
+    Enabled: true
+    CacheTime: 15
+  AAC:
+    Enabled: true
+Database:
+  MaximumCoursesCached: 10
 OnJoin:
+  PerCoursePermission: false
+  TeleportPlayer: true
   AllowViaCommand: true
   EnforceWorld: false
-  EnforceFinished: true
   FillHealth: true
   Item:
     LastCheckpoint:
@@ -13,16 +82,21 @@ OnJoin:
       Slot: 1
       Global: true
     Leave:
-      Material: SAPLING
+      Material: OAK_SAPLING
       Slot: 2
     Restart:
       Material: STICK
       Slot: 3
-  SetGamemode: 0
+    HideAllEnabled:
+      Material: BONE
   TreatFirstCheckpointAsStart: false
+  EnforceReady: true
+  SetGameMode: SURVIVAL
 OnFinish:
-  BroadcastLevel: 3
+  TeleportToJoinLocation: false
+  BroadcastLevel: GLOBAL
   DefaultPrize:
+    Command: ''
     Material: DIAMOND
     Amount: 1
     XP: 0
@@ -30,12 +104,16 @@ OnFinish:
   DisplayStats: true
   EnablePrizes: true
   EnforceCompletion: true
-  SaveUserCompletedCourses: true
-  SetGamemode: 0
   TeleportAway: true
   TeleportDelay: 0
   UpdatePlayerDatabaseTime: false
+  CompletedCourses:
+    JoinMessage: false
+    Enabled: true
+  SetGameMode: SURVIVAL
 OnLeave:
+  DestroyCourseProgress: true
+  TeleportAway: true
   TeleportToLinkedLobby: false
 OnDie:
   ResetTimeWithNoCheckpoint: false
@@ -44,9 +122,11 @@ OnLeaveServer:
   LeaveCourse: false
   TeleportToLastCheckpoint: false
 ParkourModes:
-  Challenge:
-    HidePlayers: true
-    CountdownFrom: 5
+  Dropper:
+    FallDamage: false
+  Rockets:
+    Invert: false
+    Delay: 1
   Moon:
     Strength: 5
   Speedy:
@@ -63,32 +143,58 @@ DisplayTitle:
   Leave: true
   Finish: true
 AutoStart:
+  IncludeWorldName: false
   Enabled: true
   Material: BEDROCK
   TickDelay: 0
 Scoreboard:
+  CurrentDeaths:
+    Enabled: true
+    Sequence: 5
+  Checkpoints:
+    Enabled: true
+    Sequence: 6
+  RemainingDeaths:
+    Enabled: false
+    Sequence: 8
   Enabled: true
-  Display:
-    CourseName: true
-    BestTimeEver: true
-    BestTimeEverName: true
-    BestTimeByMe: true
-    CurrentTime: true
+  Display: {}
+  LiveTimer:
+    Sequence: 7
+    Enabled: true
+  CourseName:
+    Sequence: 1
+    Enabled: true
+  BestTimeEver:
+    Sequence: 2
+    Enabled: true
+  BestTimeEverName:
+    Sequence: 3
+    Enabled: true
+  MyBestTime:
+    Sequence: 4
+    Enabled: true
 ParkourGUI:
+  FillerMaterial: CYAN_STAINED_GLASS_PANE
   Enabled: true
   Rows: 2
   Material: BOOK
-Version: 5.3
+Version: '6.4'
 Lobby:
-  Set: true
-  EnforceWorld: false
-  World: spawn
-  X: -228.76823861473693
-  Y: 26.0
-  Z: 295.45794618388607
-  Pitch: 10.49976
-  Yaw: 271.6176
+  default:
+    World: spawn
+    X: -228.76823861473693
+    Y: 26.0
+    Z: 295.45794618388607
+    Pitch: 10.49976
+    Yaw: 271.6176
 OnCourse:
+  AnybodyPlaceBreakBlocks: false
+  DisableFallDamage: false
+  EnforceWorld:
+    Enabled: true
+    LeaveCourse: false
+  TreatLastCheckpointAsFinish: false
   AdminPlaceBreakBlocks: true
   AttemptLessChecks: false
   CheckpointMaterial: STONE_PLATE
@@ -112,25 +218,28 @@ OnCourse:
     Enabled: true
     Whitelist:
     - login
-  Trails:
-    Enabled: false
-    Particle: DRIP_LAVA
 MySQL:
+  LegacyDriver: false
   Use: false
-  Host: Host
-  Port: 3306
-  User: Username
   Password: Password
-  Database: Database
-  Table: Table
+  Username: Username
+  URL: jdbc:mysql://Host:3306/Database
 SQLite:
   PathOverride: ''
 Other:
+  OnPlayerBan:
+    ResetParkourInfo: false
+  OnSetPlayerParkourLevel:
+    UpdateParkourRank: true
+  OnVoid:
+    TeleportToLobby: false
   CheckForUpdates: true
   LogToFile: true
   EnforceSafeCheckpoints: true
   UseAutoTabCompletion: true
   ParkourKit:
+    GiveSign: true
+    LegacyGroundDetection: false
     ReplaceInventory: true
   Parkour:
     ChatRankPrefix:
@@ -138,18 +247,25 @@ Other:
       OverrideChat: true
     SignProtection: true
     InventoryManagement: true
-    SignPermissions: false
-    CommandPermissions: false
+    SignUsePermissions: false
+    CommandUsePermissions: false
   Display:
+    OnlyReadyCourses: false
     JoinWelcomeMessage: true
     LevelReward: true
     ShowMilliseconds: false
     PrizeCooldown: true
   OnServerShutdown:
     BackupFiles: false
-  Economy:
-    Enabled: true
   BountifulAPI:
     Enabled: true
   PlaceholderAPI:
     Enabled: true
+  Vault:
+    Enabled: true
+LobbySettings:
+  EnforceWorld: false
+ParkourChallenge:
+  PrepareOnAccept: false
+  HidePlayers: true
+  CountdownFrom: 5
