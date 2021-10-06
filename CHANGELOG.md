@@ -1,6 +1,27 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.3]
+
+### Changed
+- Updated to 1.17.1
+- Updated ProtocolSupport✔️
+- Updated ProtocolLib✔️
+- Updated NametagEdit✔️
+- Updated TitleManager✔️
+- Updated HolographicDisplays✔️
+- Updated HolographicScoreboard✔️
+- Updated Parkour✔️
+- Updated Worldguard✔️
+- Updated Worldedit✔️
+- Replaced PermissionsEX with Luckperms as the permissions manager.🆕
+
+  - Implemented Helper, Mod, Admin ranks along with previous ones.🆕
+
+- Implemented a new TABlist.🆕
+
+- Implemented a new MOTD and Icon.🆕
+
 ## [2.2.1]
 
 ### Changed
