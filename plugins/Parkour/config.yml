@@ -1,4 +1,7 @@
 # ==== Parkour Config ==== #
+OnRestart:
+  FullPlayerRestart: false
+  RequireConfirmation: false
 ParkourTool:
   LastCheckpoint:
     Material: ARROW
@@ -15,15 +18,22 @@ ParkourTool:
     Material: OAK_SAPLING
     Slot: 2
   Restart:
+    SecondCooldown: 6
     Material: STICK
     Slot: 3
   Freedom:
+    SecondCooldown: 1
     Material: REDSTONE_TORCH
     Slot: 4
   Rockets:
     Material: FIREWORK_ROCKET
     Slot: 4
 Sounds:
+  JoinCourse:
+    Enabled: false
+    Sound: BLOCK_NOTE_BLOCK_PLING
+    Volume: 0.05
+    Pitch: 1.75
   Enabled: true
   SecondIncrement:
     Enabled: true
@@ -61,13 +71,14 @@ Plugin:
   Vault:
     Enabled: true
   PlaceholderAPI:
-    Enabled: true
+    Enabled: false
     CacheTime: 15
   AAC:
-    Enabled: true
+    Enabled: false
 Database:
   MaximumCoursesCached: 10
 OnJoin:
+  BroadcastLevel: NONE
   PerCoursePermission: false
   TeleportPlayer: true
   AllowViaCommand: true
@@ -116,15 +127,18 @@ OnLeave:
   TeleportAway: true
   TeleportToLinkedLobby: false
 OnDie:
-  ResetTimeWithNoCheckpoint: false
   SetXPBarToDeathCount: true
+  ResetProgressWithNoCheckpoint: false
 OnLeaveServer:
   LeaveCourse: false
   TeleportToLastCheckpoint: false
 ParkourModes:
+  FreeCheckpoint:
+    ManualCheckpointCommandEnabled: false
   Dropper:
     FallDamage: false
   Rockets:
+    SecondCooldown: 1
     Invert: false
     Delay: 1
   Moon:
@@ -179,7 +193,7 @@ ParkourGUI:
   Enabled: true
   Rows: 2
   Material: BOOK
-Version: '6.4'
+Version: 6.7.1
 Lobby:
   default:
     World: spawn
@@ -189,6 +203,7 @@ Lobby:
     Pitch: 10.49976
     Yaw: 271.6176
 OnCourse:
+  PreventEntitiesAttacking: true
   AnybodyPlaceBreakBlocks: false
   DisableFallDamage: false
   EnforceWorld:
@@ -242,6 +257,8 @@ Other:
     LegacyGroundDetection: false
     ReplaceInventory: true
   Parkour:
+    ResetPotionEffects: true
+    MaximumParkourLevel: 99999999
     ChatRankPrefix:
       Enabled: false
       OverrideChat: true
@@ -263,6 +280,10 @@ Other:
     Enabled: true
   Vault:
     Enabled: true
+  Time:
+    StandardFormat: HH:mm:ss
+    DetailedFormat: HH:mm:ss:SSS
+    TimeZone: GMT
 LobbySettings:
   EnforceWorld: false
 ParkourChallenge:

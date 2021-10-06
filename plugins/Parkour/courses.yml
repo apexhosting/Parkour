@@ -15,7 +15,7 @@ treetops:
   Ready: true
 valley:
   Creator: robert_beckley
-  Views: 30
+  Views: 31
   Completed: 2
   XP: 0
   World: spawn
@@ -23,7 +23,7 @@ valley:
   Ready: true
 kingdom:
   Creator: robert_beckley
-  Views: 14
+  Views: 15
   Completed: 5
   XP: 0
   World: spawn
@@ -47,7 +47,7 @@ journey:
   Ready: true
 tower:
   Creator: robert_beckley
-  Views: 11
+  Views: 12
   Completed: 0
   XP: 0
   World: spawn

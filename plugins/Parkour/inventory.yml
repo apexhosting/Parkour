@@ -51,7 +51,7 @@ Smattox:
 ShinichiTakeshi:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2586
+    v: 2730
     type: DIAMOND
     amount: 2
   - null
@@ -104,7 +104,7 @@ ShinichiTakeshi:
 JuliCarles:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2586
+    v: 2730
     type: DIAMOND
   - null
   - null
@@ -156,7 +156,7 @@ JuliCarles:
 AllanDev:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2586
+    v: 2730
     type: DIAMOND
     amount: 2
   - null
@@ -206,3 +206,54 @@ AllanDev:
   - null
   Health: 20.0
   Hunger: 20
+f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+  Inventory:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null
+  Health: 20.0
+  Hunger: 15
+  XPLevel: 0
