@@ -1,4 +1,5 @@
 ParkourTool:
+  RestartConfirmation: Please use the Restart Tool again to confirm.
   LastCheckpoint: '&7SHIFT + &6Right click to go back to last checkpoint'
   HideAll: '&7SHIFT + &6Right click to toggle visibility'
   HideAllEnabled: '&7SHIFT + &6Right click to toggle visibility'
@@ -10,6 +11,7 @@ Lobby:
   Created: '&b%VALUE% &flobby created.'
   RequiredLevelSet: You have set the required ParkourLevel to &b%VALUE%&f.
 PlaceholderAPI:
+  UnknownCourse: Unknown Course
   InvalidSyntax: Invalid syntax
   NoTimeRecorded: No time recorded
   CurrentCourseCompleted: 'Yes'
@@ -41,6 +43,7 @@ Display:
   Second: '%VALUE% second'
   Seconds: '%VALUE% seconds'
 Parkour:
+  JoinBroadcast: '&3%PLAYER% &fjoined &b%COURSE%&f!'
   SignHeader: '&0[&bParkour&0]'
   ConfigReloaded: The config has been reloaded.
   SignRemoved: Parkour sign removed!
@@ -125,6 +128,8 @@ Event:
   Chat: '&0[&b%RANK%&0] &f%PLAYER%&0:&f %MESSAGE%'
   DefaultRank: Newbie
 Error:
+  UnknownPotionEffectType: 'Unknown Potion Effect type: &4%VALUE%&c'
+  InvalidValue: Please enter a valid value.
   NotReady: This course is not ready for you to play yet!
   NotReadyWarning: This course is not ready yet.
   UnknownMaterial: 'Unknown Material: &4%VALUE%'
@@ -210,6 +215,7 @@ Economy:
   Fee: '&b%AMOUNT% &fhas been deducted from your balance for joining &b%COURSE%'
   Reward: You earned &b%AMOUNT% &ffor completing &b%COURSE%&f!
 Kit:
+  Potion: '&bPotion Block'
   Speed: '&bSpeed Block'
   Climb: '&bClimb Block'
   Launch: '&bLaunch Block'
