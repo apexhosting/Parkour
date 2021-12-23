@@ -51,7 +51,7 @@ Smattox:
 ShinichiTakeshi:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND
     amount: 2
   - null
@@ -104,7 +104,7 @@ ShinichiTakeshi:
 JuliCarles:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND
   - null
   - null
@@ -156,7 +156,7 @@ JuliCarles:
 AllanDev:
   Inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND
     amount: 2
   - null
