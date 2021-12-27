@@ -16,5 +16,8 @@
 - [Protocol Lib](https://www.spigotmc.org/resources/protocollib.1997/)
 - [Title Manager](https://www.spigotmc.org/resources/titlemanager.1049/)
 - [Vault](https://www.spigotmc.org/resources/vault.34315/)
+- [ViaBackwards](https://www.spigotmc.org/resources/viabackwards.27448/)
+- [ViaRewind](https://www.spigotmc.org/resources/viarewind.52109/)
+- [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/)
 - [World Edit](https://dev.bukkit.org/projects/worldedit)
 - [World Guard](https://dev.bukkit.org/projects/worldguard)
