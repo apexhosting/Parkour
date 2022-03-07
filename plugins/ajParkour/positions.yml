@@ -1,0 +1,35 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+areas:
+  Desert:
+    difficulty: EASY
+    max: 12
+    pos1: parkour,-159,68,-209,-52.317383,-8.549954
+    pos2: parkour,150,92,120,169.11072,20.849821
+    fallpos: parkour_world,14,81,1503,-92.25077,3.150001
+  Aquatic:
+    difficulty: MEDIUM
+    max: 12
+    pos1: parkour,-1047,105,-1227,-125.72504,11.399756
+    pos2: parkour,-694,178,-1529,27.135498,63.449745
+    fallpos: parkour_world,14,81,1503,-92.25077,3.150001
+  Forest:
+    difficulty: HARD
+    max: 12
+    pos1: parkour,-548,115,-1715,-32.432495,51.29964
+    pos2: parkour,-246,165,-1398,132.87903,25.049658
+    fallpos: parkour_world,14,81,1503,-92.25077,3.150001
+  Swamp:
+    difficulty: HARD
+    max: 12
+    pos1: parkour,-2138,72,295,-129.35384,6.4498353
+    pos2: parkour,-1866,110,-37,83.03763,44.84986
+    fallpos: parkour_world,12,81,1506,-113.70044,1.5000138
+  Taiga:
+    difficulty: HARD
+    max: 12
+    pos1: parkour,-305,133,-2334,-25.948683,-11.850243
+    pos2: parkour,-77,224,-2213,118.35102,90.0
+    fallpos: parkour_world,14,81,1503,-92.25077,3.150001
+portals: {}

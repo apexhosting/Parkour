@@ -99,21 +99,27 @@ Welcome:
 time:
   change-interval: 900
   texts:
-  - '&7Time &b%time%'
-  - '&7> Time &b%time% &7<'
-  - '&7>> Time &b%time% &7<<'
-  - '&7>>> Time &b%time% &7<<<'
-  - '&7Date &b%date%'
-  - '&7> Date &b%date% &7<'
-  - '&7>> Date &b%date% &7<<'
-  - '&7>>> Date &b%date% &7<<<'
+  - '&7Time &C%time%'
 ping-tps:
   change-interval: 5000
   texts:
   - '&aPing: &2&n%ping%&r &ams'
-  - '&bServer TPS: &8%tps%'
-admin_prefix:
+versions:
   change-interval: 1000
+  texts:
+  - 'Online players with MC 1.14.x : %version-group:1-14-x%'
+  - 'Online players with MC 1.13.x : %version-group:1-13-x%'
+  - 'Online players with MC 1.12.x : %version-group:1-12-x%'
+  - 'Online players with MC 1.11.x : %version-group:1-11-x%'
+  - 'Online players with MC 1.10.x : %version-group:1-10-x%'
+  - 'Online players with MC 1.9.x : %version-group:1-9-x%'
+  - 'Online players with MC 1.8.x : %version-group:1-8-x%'
+  - 'Online players with MC 1.7.x : %version-group:1-7-x%'
+  - 'Online players with MC 1.6.x : %version-group:1-6-x%'
+  - 'Online players with MC 1.5.x : %version-group:1-5-x%'
+  - 'Online players with unknown version: %version-group:other%'
+admin_prefix:
+  change-interval: 200
   texts:
   - '&6&lAdmin &e'
   - '&6&lAdmin &e'
@@ -143,3 +149,17 @@ barcolors:
   - BLUE
   - GREEN
   - YELLOW
+test:
+  change-interval: 100
+  texts:
+  - '100'
+  - '90'
+  - '80'
+  - '70'
+  - '60'
+  - '50'
+  - '40'
+  - '30'
+  - '20'
+  - '10'
+  - '0'

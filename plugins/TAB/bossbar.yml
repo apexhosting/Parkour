@@ -1,0 +1,27 @@
+#styles (SERVER 1.9+)
+#NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20, PROGRESS
+bossbar-enabled: false
+refresh-interval-milliseconds: 1000
+bossbar-toggle-command: /bossbar
+remember-toggle-choice: false
+default-bars:
+- ServerInfo
+per-world:
+  testworld:
+  - test
+bars:
+  ServerInfo:
+    permission-required: false
+    refresh: 1000
+    style: PROGRESS
+    color: '%animation:barcolors%'
+    progress: '100'
+    text: '&fWebsite: &bwww.domain.com'
+  test:
+    permission-required: false
+    refresh: 100
+    style: PROGRESS
+    color: WHITE
+    progress: '%animation:test%'
+    text: test
+hidden-by-default: false

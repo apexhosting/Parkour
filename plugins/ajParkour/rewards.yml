@@ -1,0 +1,23 @@
+# This is the rewards file.
+# Here is a guide for this: https://wiki.ajg0702.us/ajparkour/configs/Rewards
+
+intervals:
+  '15':
+    message: '&aCongrats! &7You got to {SCORE} jumps! &a+100$'
+    commands:
+    - eco give {PLAYER} 100
+exceptions:
+  '1':
+    message: '&a&lCongrats, you made a jump!'
+    first-time-only: true
+specials:
+  beat-server-record:
+    message: '&a&lCongrats!&r&7 You reached the server high score!'
+    commands:
+    - eco give {PLAYER} 5000
+  start:
+    message: ''
+    commands: []
+  end:
+    message: ''
+    commands: []

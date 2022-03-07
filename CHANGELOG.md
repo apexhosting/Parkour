@@ -1,6 +1,35 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+##3.0
+
+#Fixes
+
+- Renamed the GUI Arenas✔️
+- Enabled chest interactions✔️
+- Added functionality to NPCS✔️
+- Corrected the default Essentials settings✔️
+
+#New Features
+
+- Implemented 1.18.2 support🆕
+- Added Scoreaboard🆕
+- Added Leaderboard🆕
+- Added damage protection in the lobby🆕
+- Added custom join/leave messages🆕
+- Added new icon🆕
+- Added new motd🆕
+- Added TOP 1,2,3 NPCS🆕
+- Added Apex's branding images into the lobby🆕
+- Added Highscore counters displayed on each arena🆕
+- Added launchpads🆕
+
+## [2.6]
+
+- Added a new parkour plugin to handle arenas.
+- New arenas implemented.
+- New rewards system implemented. 
+
 ## [2.5]
 - Added the Via suite of plugins for version support.
 
@@ -81,6 +110,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+=======
+[3.0]: https://github.com/apexhosting/Parkour/releases/tag/3.0
+[2.6]: https://github.com/apexhosting/Parkour/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/Parkour/releases/tag/2.5
 [2.4]: https://github.com/apexhosting/Parkour/releases/tag/2.4
 [2.3]: https://github.com/apexhosting/Parkour/releases/tag/2.3

@@ -1,15 +1,15 @@
 worlds:
-  spawn:
+  parkour_world:
     ==: MVWorld
     hidden: 'false'
-    alias: spawn
+    alias: parkour_world
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -33,30 +33,30 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: -21.0
+      y: 87.0
+      z: 1462.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '7337073668999340298'
+    seed: '-6251610218108775597'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  Straight_Parkour:
+  parkour:
     ==: MVWorld
     hidden: 'false'
-    alias: Straight_Parkour
+    alias: parkour
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -77,19 +77,19 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
+    keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 102.5
-      y: 56.0
-      z: 38.5
-      pitch: 0.0
-      yaw: 0.0
+      x: -135.2482024521023
+      y: 64.0
+      z: -78.85635943120614
+      pitch: 36.449787
+      yaw: -87.80264
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '4210022293196517986'
-    generator: 'null'
+    seed: '-8990199279450432506'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'

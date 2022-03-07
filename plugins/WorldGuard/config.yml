@@ -3,15 +3,19 @@ regions:
         perform-on-next-start: false
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
+    disable-bypass-by-default: false
+    announce-bypass-status: false
     sql:
         use: false
         dsn: jdbc:mysql://localhost/worldguard
         username: worldguard
         password: worldguard
         table-prefix: ''
+    use-paper-entity-origin: false
     enable: true
     invincibility-removes-mobs: false
-    nether-portal-protection: false
+    cancel-chat-without-recipients: true
+    nether-portal-protection: true
     fake-player-build-override: true
     explosion-flags-block-entity-damage: true
     high-frequency-flags: false
@@ -22,16 +26,13 @@ regions:
     location-flags-only-inside-regions: false
     max-region-count-per-player:
         default: 7
-    use-paper-entity-origin: false
-    cancel-chat-without-recipients: true
-    disable-bypass-by-default: false
-    announce-bypass-status: false
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
 use-player-move-event: true
 use-player-teleports: true
 use-particle-effects: true
+disable-permission-cache: false
 security:
     deop-everyone-on-join: false
     block-in-game-op-command: false
@@ -77,7 +78,7 @@ ignition:
     block-tnt-block-damage: false
     block-lighter: false
 fire:
-    disable-lava-fire-spread: true
+    disable-lava-fire-spread: false
     disable-all-fire-spread: false
     disable-fire-spread-blocks: []
     lava-spread-blocks: []
@@ -103,8 +104,8 @@ mobs:
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false
-    block-creature-spawn: []
     block-vehicle-entry: false
+    block-creature-spawn: []
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -116,14 +117,17 @@ player-damage:
     teleport-on-suffocation: false
     disable-void-damage: false
     teleport-on-void-falling: false
+    reset-fall-on-void-teleport: false
     disable-explosion-damage: false
     disable-mob-damage: false
     disable-death-messages: false
-    reset-fall-on-void-teleport: false
 chest-protection:
     enable: false
     disable-off-check: false
 crops:
+    disable-creature-trampling: false
+    disable-player-trampling: false
+turtle-egg:
     disable-creature-trampling: false
     disable-player-trampling: false
 weather:
@@ -132,10 +136,10 @@ weather:
     disable-thunderstorm: false
     disable-weather: false
     disable-pig-zombification: false
+    disable-villager-witchification: false
     disable-powered-creepers: false
     always-raining: false
     always-thundering: false
-    disable-villager-witchification: false
 dynamics:
     disable-mushroom-spread: false
     disable-ice-melting: false
@@ -146,10 +150,10 @@ dynamics:
     disable-grass-growth: false
     disable-mycelium-spread: false
     disable-vine-growth: false
-    disable-soil-dehydration: false
-    snow-fall-blocks: []
     disable-crop-growth: false
+    disable-soil-dehydration: false
     disable-coral-block-fade: false
+    snow-fall-blocks: []
 blacklist:
     use-as-whitelist: false
     logging:
@@ -165,7 +169,6 @@ blacklist:
             enable: false
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
-disable-permission-cache: false
-turtle-egg:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+custom-metrics-charts: true
+extra-timings:
+    session-handlers: true
