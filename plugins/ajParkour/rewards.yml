@@ -2,10 +2,12 @@
 # Here is a guide for this: https://wiki.ajg0702.us/ajparkour/configs/Rewards
 
 intervals:
-  '15':
-    message: '&aCongrats! &7You got to {SCORE} jumps! &a+100$'
+  '50':
+    message: '&aCongrats! &7You have jumped {SCORE} times in a row! &a+500$'
     commands:
-    - eco give {PLAYER} 100
+    - eco give {PLAYER} 500
+    - tm msg {PLAYER} &c&l50 Jumps in a row!
+    - summon minecraft:firework_rocket
 exceptions:
   '1':
     message: '&a&lCongrats, you made a jump!'
@@ -14,10 +16,13 @@ specials:
   beat-server-record:
     message: '&a&lCongrats!&r&7 You reached the server high score!'
     commands:
-    - eco give {PLAYER} 5000
+    - eco give {PLAYER} 20000
+    - tm abroadcast &c&l{PLAYER} &7just beat the TOP &e1 &7jumps record!
   start:
     message: ''
-    commands: []
+    commands:
+    - tm msg {PLAYER} &a&lSTART
   end:
     message: ''
-    commands: []
+    commands:
+    - tm msg {PLAYER} &c&lFAILED

@@ -18,11 +18,11 @@ inventory:
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Hours
         played: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Money:
-        "},{"italic":false,"color":"green","text":"0"}],"text":""}'
+        "},{"italic":false,"color":"green","text":"800"}],"text":""}'
       enchants:
         Glowing: 1
       Damage: 3
-      internal: H4sIAAAAAAAA/11USa7bRhClDQf4+XbukGUAImBLHP7XwkAoikNT4iDO5I6TyJaaojiIFHmIHCBnyEGyDXKIZBcfIfq2AztZNeq96nqvqhv1SBCPxDv7dMXYbOsDwvkD8UaPq5x45DGOz3bfxv0j8XgnL3nbo7z7lnjo81t/bfPukSCIVw/EtzYqzvEL8vrXkATg4ovoMi9ZYJBH7F05KnVbs7SFyadFfRFz83PpRFHcBbYpUAY1We3ikklJ2veMZXdUk4rZOklD92ZBRwOI57vET7pZvDVrbMMuKTupZwemG58ke1jnJ//JxCFpUPVtRl6Qq85qO9au2mnJkuG8VbLwThMjWJksz6qi8l27wS3NxWshX6NT2oBgmsehtYdTuE2bbmz6mZSsTp0PYBUt24icY0Urz0JES6SIyRQ4zn6wt+WzzvTi/iSHi1ahy6Y9rlyYFFEeRHVQ3NggFSyPsnKmafIKjmmumq1SMze2LFeX5WmsuVSTafw0nYJilFjyatHd2pDZpXSGUg4qZK0oUEDm4g/Brh+NcuzPKcwaZJZjsLpwKxP77lmUyNTxWE7YKMuNv+0PSwkthoNOutrxnMvFUIbi3tz3WuMXlgiBSxWXPM5yCDLWFNZgsaLg1j6i83xoFN0DVUmmqkpvFyTFavHkQlKeLNFsDubzhZwlCSNsC2On1fsKoW73zNnihDsO2rxgttLO3I1bklZpNjJqMchUdTgUtNwlm+RIcbzOKbbC8OAswUFpylIFgzhtkIybTlRbX7Rupme1cpfm14KmQ9xkTnMS43Zpgq2xAx1dZJ1crPrjQO1wGayUoeC5S7yl3DDnGF6vJsoNkOhRPLMQKP8Z9gnOqMWg+VjnLe/QruR08yQHzKExhfr9A/GNF+Nr/uqvfKwLKKgg9hc4pa0yCXgEN3WhOSHQjyGtOdpSd1xWE8YtFHiUKuoQVbiLXHyCiOfudytNdunoyE/GZs/ec0Eka4whu0CT97M2Wzg6rlG0Ednw/oUFxBfwvJ6SZXRJZM8I77qf66wT+VYmWAdpJQGIPust8Tm5x1mgYrfybpmPp8jff/SYKeoisj/lZbLHZIo3RYH2kfvU110L6zvbZf6LveQHavdZt84UazTQ8/BVjWvi42vk61PoR2BXsTgTViAKyo8+dss9o9970jdqFTr8zdicJs33sOZk916to74RZ8NJx8gXgVbtaf0IF8aGB3rlocjRbrpzmsLZO4Y+ZHQnHO/zuxlOiHb8F3+J74HQt8pMFv/v/eW9+mRp4USAhYFeZnS7JDbc/ssf9vWXUwHbw/79e4J4S7yG2X1tvfnw54cfoKv99vNPfzB/v/39F+KB+A72eaXW6Py9jeueeAW+hj7uxHeXTzvyR3SHiX8AXq7A7zwFAAA=
+      internal: H4sIAAAAAAAA/11USY7bRhRlGw7Qbjt3yDIAEYgiqZa0MBCK8yzOw46TyCKLIpuDRPIQPkDOkINkG+QQyS4+QtTtDuxkVaj3fv333i/gPyDIA/LBqkYIj11zAjC7R95qUZ0hDxSE0dkaumh4QB5uZJt1A8j6d8j9kE3D2GX9A4Igd/fIOwvk5+gZefPraWhkLR7ZQydvdNnCE9/vVwnYQsYen1YyG+0nDdNlBa4DuXu6rNZqx1cMFcyVliyag+0tZzMF40LEVKPu8kk7dxvfjma3o6jeNgc3ecJMgrGt49EyzHQt7SOAauKVIsFMoNO1KNBCMsQcy0ha6tvtplWASbgoqW99rZUYFtZPO4okBUcqaZRIC6E6ePhEFsUoUyRGRkVPt+rQcY1uAHwvQujOPdo0YbQ60IGYM7K7rb018PZ2Szunx6NC2ri45gKzHHvd2XqpM294iWrHMpu6sikWf+8weykfhCqyo8ZU21UoTDM5XIepzC9+OQkUnZ54TS63Kj6cnWCRVFVZaCHOEiPhTiA5mkGk8BPEpc4UFHZVHPLtcUKlk8tUJ1ZKemzlivTWBKRgrnQOFR4Dy5gGM8ajszZik7GL43SiedxannAXaB3a1Q4rdwpxRaO1UVfGOmxCeAQcxg1Retm0nAkmlKBU2kLP5eLXzPWClYkHuHLCFsBelngMsZwnzYYc5UrOKPIRY8LLRRoPwr7Qt5w4nXAlzaAv5VXMczVjE/gW8vQeZSIMF1G02dC79UCrLaP55p6YFCrn7EjPHOyicFKdijswsS0oTleN9naTSqRElYp9oR6yYld7snbugz2o7IZhpcoP2xY7c+ftkSSOsgddnpJz28zzRDc1i+GCfl/6EkqtD+0RlCd3BiXukB/vke/cCI7Z3V/ZtclFWsIibw0TwixinwIi0+SqHWBamRDqws7akl916yqLNAUSQbqENexDB1YioB5vb2uVd4iwpGadMTaa7WAhr5I672AqbyzqYsKwPICQYTeBJfY0oHLxfJhjPGxj3tWDm+5rn0PMT0UMNSypOUwEr3o4PMe3e+pL0KndKfXgHHrGi8dUkNbhq6+Ud8lUcOfQV1+4L7luWlBTLIf8L/Zc70v9q26TCuZVB7vLNz3G2INj6Glz4IWYUm9gSu+x0C9efCi4QWq3TBoj1YFNTTpTzarnQtVOb1nNUmPYRbeTa+ixmFobhFaKa52hMK12QWirk2ZXc7C4ZeCJpGYH19v8Jt0OgEJ99Rd7LhZ4ZpHy7P+9P//XEOMmjGkx18HzjKY2tkT5X/5kNF9PAZNPxsePCPIeeSOmt7X19vOfn38UHfW3Tz//Qf79/vdfkHvke3HIaqkB5x8s2AzIHfYt9LITP7RfduRP4AYj/wCza78lPAUAAA==
       skull-owner: AllanStrat
   - null
   - null
@@ -59,10 +59,7 @@ inventory:
       - HIDE_ATTRIBUTES
       Unbreakable: true
       internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRBFvJLzE1l4ChOzUlNLskvYgAAVDlCYjEAAAA=
-      LodestoneTracked: false
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2865
-    type: CYAN_TERRACOTTA
+  - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
@@ -74,7 +71,7 @@ inventory:
       display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Collectibles"}],"text":""}'
       lore:
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
-        Dust: "},{"italic":false,"color":"aqua","text":"14507"}],"text":""}'
+        Dust: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
       - '{"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
         fun cosmetic features!"}],"text":""}'

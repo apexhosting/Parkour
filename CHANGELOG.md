@@ -1,5 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+##3.1
+
+#Fixes
+
+- Re setup the arenas for each arena to be above all structures on the maps, this will prevent any blocks from appearing in structures or the player being obstructed by them.
+
+- Re adjusted the chance for mystery dust loot on crates.
+
+- Re adjusted rewards interval to 50 jumps.
+
+- Added leaderboards for each arena displayed on the lobby.
+
+- Changed the rewards method to prevent farming of rewards.
+
+- Items are now movable within the player's inventory.
+
+- Balanced the shop prices.
 
 ##3.0
 
@@ -111,6 +128,7 @@ All notable changes to this project will be documented in this file.
 - Initial commit of pack to Github for version control
 
 =======
+[3.1]: https://github.com/apexhosting/Parkour/releases/tag/3.1
 [3.0]: https://github.com/apexhosting/Parkour/releases/tag/3.0
 [2.6]: https://github.com/apexhosting/Parkour/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/Parkour/releases/tag/2.5

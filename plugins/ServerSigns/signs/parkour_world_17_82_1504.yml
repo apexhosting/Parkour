@@ -38,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 9
+uses_tally: 99
 protectedBlocks:
 - parkour_world,18,82,1504
 displayInternalMessages: true

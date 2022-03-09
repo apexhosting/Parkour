@@ -20,7 +20,7 @@ updater:
   text: 5
 enabledWorlds:
   - parkour_world
-  - Lobby
+  - parkour
 changeableText:
   perm_info:
     text:

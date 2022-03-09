@@ -1,0 +1,78 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_tripwire_hook": "2022-03-08 21:15:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-03-08 21:03:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-03-08 21:03:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-03-08 21:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2022-03-08 21:15:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2022-03-08 21:06:27 +0000",
+      "minecraft:eroded_badlands": "2022-03-08 21:09:50 +0000",
+      "minecraft:badlands": "2022-03-08 21:10:02 +0000",
+      "minecraft:lukewarm_ocean": "2022-03-08 21:05:15 +0000",
+      "minecraft:river": "2022-03-08 21:30:53 +0000",
+      "minecraft:dripstone_caves": "2022-03-08 21:09:42 +0000",
+      "minecraft:swamp": "2022-03-08 21:04:01 +0000",
+      "minecraft:desert": "2022-03-08 21:07:22 +0000",
+      "minecraft:jungle": "2022-03-08 21:03:12 +0000",
+      "minecraft:deep_lukewarm_ocean": "2022-03-08 21:04:58 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2865
+}

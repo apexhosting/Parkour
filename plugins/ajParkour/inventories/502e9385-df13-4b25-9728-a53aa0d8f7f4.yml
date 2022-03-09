@@ -18,15 +18,67 @@ inventory:
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Hours
         played: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Money:
-        "},{"italic":false,"color":"green","text":"300"}],"text":""}'
+        "},{"italic":false,"color":"green","text":"100100"}],"text":""}'
       enchants:
         Glowing: 1
       Damage: 3
-      internal: H4sIAAAAAAAA/1VUua7rVBT1e3pI910eFT9Ag4RkgYfYSYxE4SmxEx/b8Wx3N57t4yGx46nnC0CipaHjg+j4CSRacofiUW1p7aO9hiOtRwR5RD6Z5Q1C/dokOYwfkA/qUxUjH5Zdnz0ij3e4ja99HncfkYc+nvrbNe4eEQR594B8NPO0fnpG3v9ZG0rcsRojaGVZC1R5cjYKRntrOwLa7oafu0JEl9S/7SLlpjd+jinxkMWoQaGua0tptdXMTR1rNbjZ/SVhvdXuIg50bdXnwR0CIC5WHltJxtrEdCIbk1rEK6/DxCYNpof05HAW9NhiqkuSwYw8y8fism008+jPpUaoq6W5lOhFKNdHpRqmYBoH1XI9QTqppCTqSWzcht1EigwmlbFpeN22ixaeY2PBN1wm7WjLpxqub5tl0IvTJjPZHSeZ7Q0/gFo0d02AtpuKAFG18+IVTKDDpKQjnddZz5k6drjM+noZUPXG7sz9aM57fIMa/lLXi5QbmqWq3Im+cslSbJ+iibSckGHAvC46p8T3gCrX5zjKiqIo46ujyBbraJhCYFnYj03oJiciWGVynDRa1mKtJ6UoLYQjvLSLf730HqhsWpejpdb5id6oKaZVjReKSUS4TjGnROEL1ChOc8h4GzyhBBO19+mQXkZg5u08zeCKex5bTjzp0sfkctdwW01jrB+grUgD3osKL8beZVXSHkadS24v9Bl5bPSjJ2a8dCELsFBHyVjSQxsbptrSeVsXmyeKD3aGzO2xCdISyEDhxOM626mjijoRfzJdWmV41CFCdYblGGOkFvnQNq/LdnU4W8egbtZnteiVFM1llIs2pGaGx319VrlJWdcrrdvaC6/1uo4lYqBcFLXu7p976Eso//SAfOE8wVv87td4bFKZP+BPLgHDlZGdPTaXhSYFlo+rhU+BQqSBkOKaOR5lns1D6TAEFewCG5Zyzq5lXiaAcICaBSjVNSpgAdwvZEKzwlnbiwQgdxnYn6igiCqVlzs+Z1O55uYzGbTnvaP5d97XO4e1URuNnL/xkLA+Vzs88u4xV84UuXAO3NOLtkg6EMGbnmjvUJHkzIEHXnavfu4cUFVMm/o/9vzeO3RvfE0kGaOWb4fPbtzOLrwFrjr7boArFQ0jnsEDL3vRoSxOBqq7HyucVFec/MW+ey9n1RIJtQhXwAU0WELSd2VaFe75WSmpuTIeVP4Elgz6VZAB4Tkfp/RJcQEFvOdm5y+Z8BzzPJNTyyDIl8h7ObpXzAf9h19+/vvr47e/fffHj7//9e8/yAPyldzH1aHJ629M2PTIO/xz6KW5PrWvTfZ9foeR/wBQ3NFZ4gQAAA==
+      internal: H4sIAAAAAAAA/1VUu66jVhRlRhPpzs2kyg+kiRTJSgwYbBMpBQYbDm/M4wAdcHgZMNjmZfp8QSKlTZMuH5QuPxEpbTz3TjGptrT21l57LW2tZwx7xj5YZV9VxrVJiyp5wt5pYZ1g7+ZDlz9jzw+4Ta5dkdzeY09dMnX9Nbk9Yxj25gl7bxXZOfyIvP0zbiW2U4/zGllacbqStDIuElnJONsQFd9ai5WC74txW3XLxgC9p7Lm6iY3ZZjd7aH2y2g8VYSM26M4ZcAxgT2RZIcTMWOK64HNI8+RIHD78gaTQVqd1QxumzSpozqX6BDPt2s5tt2btIAyiiXOmn2hbuDI5AlEkqf4RWZuXIM8BDQujLuIlMAZFCyiFZUIwZB2Zqwv+O6MBm1QemjR1IGl58vMRn6mjCmkoV+K66giYL9EKaPf7swQCuFgmJukD2hLzaqcmxkkNtveEcoy6cc7x2pZAadutRqoPEEtY8xabYaJojA2AqWxRUuu7dusnqXdnuAZanllZ+HaautURSaTEvdyLCe3PlUtQHLUXr3gtk5jOOzMKR6F2WmSleRSOSGFaJeZ/MJGQk8kOecfnBQgrZiPpA2mcQSE0BwXFrCmFZOa/cnsjqnObk8KviLzDZVPPJTEkM92bSvDurxTVsaU3Hqf8nscP/OJRl0WF4s589nKX0XtWR7JgS7nc19UC8PbG9pktOvD1l/uoiuexql2k529uNoc7e0sDgO+sGV2N7RRvxWJQizcEErbRZaqejjpaHlYRktVGzZ1Gk+7zdBnfCpv3DzfEijkTUTlPOVfMocWZL0nl7WH9yM/4Ia3Wbsg4loqnpfOFIqQvRSSrhkz462Eigwv4cV17VTyBnLfanBS7S3XOTy4IfynJ+wLN6z65M2vydhkgJPwEBJVvDo+3owtAN9kqu3j2inDVV6ldJudVW6UAccWsSgNQV3dAqcqH/+zBhwgVF6qdFulNHisVVvF/RMgdDu+68KeUMlDrgomFZxQrXHgxhVsBs67e0QGbSS4uv/gfd0jrY/nYwOKTzxkdY7qA448qXJqd0KwugfQfLkNiRIRWK9zSHApJLr3wFNfeq96HhyVplgO9X/s47wn3T7xNUg8jnqxHT7b0Uew6gOo3X0Y4EpNV4hj8MDLX+5QZjdX64ceO540uJ/82XloL++avSe0U7xSoUqrc0z6ENAa//DPzkgdAjyo/Umd88qvg/zh58Mft/TJ/ayeqodvTvHiCbdjPtbUbBkM+xJ7C9AjYt4ZP/zy899fy9/+9t0fP/7+17//YE/YV6BLaqkpzt9YVdNhb/DPoZfk+tC+Jtn3xQPG/gOG1IBv4gQAAA==
       skull-owner: zFth
-  - null
-  - null
-  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 6
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"REWARDS
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool rewards."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"yellow","text":"HATS
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool hats."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"light_purple","text":"PARTICLES
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool particles."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
   - ==: org.bukkit.inventory.ItemStack
     v: 2865
     type: COMPASS
@@ -59,7 +111,11 @@ inventory:
       - HIDE_ATTRIBUTES
       Unbreakable: true
       internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRBFvJLzE1l4ChOzUlNLskvYgAAVDlCYjEAAAA=
-  - null
+      LodestoneTracked: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GLOWSTONE
+    amount: 64
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
@@ -71,7 +127,7 @@ inventory:
       display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Collectibles"}],"text":""}'
       lore:
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
-        Dust: "},{"italic":false,"color":"aqua","text":"300"}],"text":""}'
+        Dust: "},{"italic":false,"color":"aqua","text":"100"}],"text":""}'
       - '{"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
         fun cosmetic features!"}],"text":""}'

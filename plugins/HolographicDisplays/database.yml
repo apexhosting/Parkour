@@ -117,7 +117,7 @@ rewards:
     z: 1532.963402106564
 l1:
   lines:
-  - '&u🔥 &c&LTOP &7&l10 &u🔥'
+  - '&u🔥 &c&LGLOBAL &7&l10 &u🔥'
   - ''
   - '&41&7. &c%ajpk_stats_top_name_1% &7with &4%ajpk_stats_top_score_1% &7jumps'
   - '&42&7. &c%ajpk_stats_top_name_2% &7with &4%ajpk_stats_top_score_2% &7jumps'
@@ -164,3 +164,98 @@ t3:
     x: 9.624381069040739
     y: 86.1
     z: 1492.0594764891162
+top1:
+  lines:
+  - '&7🔥 &7&LTOP &6&lDESERT &7🔥'
+  - ''
+  - '&41&7. &c%ajpk_stats_top_name_1_Desert% &7with &4%ajpk_stats_top_score_1_Desert% &7jumps'
+  - '&42&7. &c%ajpk_stats_top_name_2_Desert% &7with &4%ajpk_stats_top_score_2_Desert% &7jumps'
+  - '&43&7. &c%ajpk_stats_top_name_3_Desert% &7with &4%ajpk_stats_top_score_3_Desert% &7jumps'
+  - '&44&7. &c%ajpk_stats_top_name_4_Desert% &7with &4%ajpk_stats_top_score_4_Desert% &7jumps'
+  - '&45&7. &c%ajpk_stats_top_name_5_Desert% &7with &4%ajpk_stats_top_score_5_Desert% &7jumps'
+  - '&46&7. &c%ajpk_stats_top_name_6_Desert% &7with &4%ajpk_stats_top_score_6_Desert% &7jumps'
+  - '&47&7. &c%ajpk_stats_top_name_7_Desert% &7with &4%ajpk_stats_top_score_7_Desert% &7jumps'
+  - '&48&7. &c%ajpk_stats_top_name_8_Desert% &7with &4%ajpk_stats_top_score_8_Desert% &7jumps'
+  - '&49&7. &c%ajpk_stats_top_name_9_Desert% &7with &4%ajpk_stats_top_score_9_Desert% &7jumps'
+  - '&410&7. &c%ajpk_stats_top_name_10_Desert% &7with &4%ajpk_stats_top_score_10_Desert% &7jumps'
+  position:
+    world: parkour_world
+    x: 4.956920800152382
+    y: 85.44385990029258
+    z: 1510.6630580742192
+top2:
+  lines:
+  - '&7t🔥 &7&LTOP &b&lAQUATIC &7🔥'
+  - ''
+  - '&41&7. &c%ajpk_stats_top_name_1_Aquatic% &7with &4%ajpk_stats_top_score_1_Aquatic% &7jumps'
+  - '&42&7. &c%ajpk_stats_top_name_2_Aquatic% &7with &4%ajpk_stats_top_score_2_Aquatic% &7jumps'
+  - '&43&7. &c%ajpk_stats_top_name_3_Aquatic% &7with &4%ajpk_stats_top_score_3_Aquatic% &7jumps'
+  - '&44&7. &c%ajpk_stats_top_name_4_Aquatic% &7with &4%ajpk_stats_top_score_4_Aquatic% &7jumps'
+  - '&45&7. &c%ajpk_stats_top_name_5_Aquatic% &7with &4%ajpk_stats_top_score_5_Aquatic% &7jumps'
+  - '&46&7. &c%ajpk_stats_top_name_6_Aquatic% &7with &4%ajpk_stats_top_score_6_Aquatic% &7jumps'
+  - '&47&7. &c%ajpk_stats_top_name_7_Aquatic% &7with &4%ajpk_stats_top_score_7_Aquatic% &7jumps'
+  - '&48&7. &c%ajpk_stats_top_name_8_Aquatic% &7with &4%ajpk_stats_top_score_8_Aquatic% &7jumps'
+  - '&49&7. &c%ajpk_stats_top_name_9_Aquatic% &7with &4%ajpk_stats_top_score_9_Aquatic% &7jumps'
+  - '&410&7. &c%ajpk_stats_top_name_10_Aquatic% &7with &4%ajpk_stats_top_score_10_Aquatic% &7jumps'
+  position:
+    world: parkour_world
+    x: -1.819709284097457
+    y: 85.44385990029258
+    z: 1517.8964586243458
+top3:
+  lines:
+  - '&7🔥 &7&LTOP &#964B00&lFOREST &7🔥'
+  - ''
+  - '&41&7. &c%ajpk_stats_top_name_1_Forest% &7with &4%ajpk_stats_top_score_1_Forest% &7jumps'
+  - '&42&7. &c%ajpk_stats_top_name_2_Forest% &7with &4%ajpk_stats_top_score_2_Forest% &7jumps'
+  - '&43&7. &c%ajpk_stats_top_name_3_Forest% &7with &4%ajpk_stats_top_score_3_Forest% &7jumps'
+  - '&44&7. &c%ajpk_stats_top_name_4_Forest% &7with &4%ajpk_stats_top_score_4_Forest% &7jumps'
+  - '&45&7. &c%ajpk_stats_top_name_5_Forest% &7with &4%ajpk_stats_top_score_5_Forest% &7jumps'
+  - '&46&7. &c%ajpk_stats_top_name_6_Forest% &7with &4%ajpk_stats_top_score_6_Forest% &7jumps'
+  - '&47&7. &c%ajpk_stats_top_name_7_Forest% &7with &4%ajpk_stats_top_score_7_Forest% &7jumps'
+  - '&48&7. &c%ajpk_stats_top_name_8_Forest% &7with &4%ajpk_stats_top_score_8_Forest% &7jumps'
+  - '&49&7. &c%ajpk_stats_top_name_9_Forest% &7with &4%ajpk_stats_top_score_9_Forest% &7jumps'
+  - '&410&7. &c%ajpk_stats_top_name_10_Forest% &7with &4%ajpk_stats_top_score_10_Forest% &7jumps'
+  position:
+    world: parkour_world
+    x: -6.541135802031785
+    y: 85.44385990029258
+    z: 1524.2478394556517
+top4:
+  lines:
+  - '&7🔥 &7&LTOP &2&lSWAMP S&7🔥'
+  - ''
+  - '&41&7. &c%ajpk_stats_top_name_1_Swamp% &7with &4%ajpk_stats_top_score_1_Swamp% &7jumps'
+  - '&42&7. &c%ajpk_stats_top_name_2_Swamp% &7with &4%ajpk_stats_top_score_2_Swamp% &7jumps'
+  - '&43&7. &c%ajpk_stats_top_name_3_Swamp% &7with &4%ajpk_stats_top_score_3_Swamp% &7jumps'
+  - '&44&7. &c%ajpk_stats_top_name_4_Swamp% &7with &4%ajpk_stats_top_score_4_Swamp% &7jumps'
+  - '&45&7. &c%ajpk_stats_top_name_5_Swamp% &7with &4%ajpk_stats_top_score_5_Swamp% &7jumps'
+  - '&46&7. &c%ajpk_stats_top_name_6_Swamp% &7with &4%ajpk_stats_top_score_6_Swamp% &7jumps'
+  - '&47&7. &c%ajpk_stats_top_name_7_Swamp% &7with &4%ajpk_stats_top_score_7_Swamp% &7jumps'
+  - '&48&7. &c%ajpk_stats_top_name_8_Swamp% &7with &4%ajpk_stats_top_score_8_Swamp% &7jumps'
+  - '&49&7. &c%ajpk_stats_top_name_9_Swamp% &7with &4%ajpk_stats_top_score_9_Swamp% &7jumps'
+  - '&410&7. &c%ajpk_stats_top_name_10_Swamp% &7with &4%ajpk_stats_top_score_10_Swamp% &7jumps'
+  position:
+    world: parkour_world
+    x: -16.040138967513005
+    y: 85.44385990029258
+    z: 1510.6200199566097
+top5:
+  lines:
+  - '&7🔥 &7&LTOP &f&lTAIGA &7🔥'
+  - ''
+  - '&41&7. &c%ajpk_stats_top_name_1_Taiga% &7with &4%ajpk_stats_top_score_1_Taiga% &7jumps'
+  - '&42&7. &c%ajpk_stats_top_name_2_Taiga% &7with &4%ajpk_stats_top_score_2_Taiga% &7jumps'
+  - '&43&7. &c%ajpk_stats_top_name_3_Taiga% &7with &4%ajpk_stats_top_score_3_Taiga% &7jumps'
+  - '&44&7. &c%ajpk_stats_top_name_4_Taiga% &7with &4%ajpk_stats_top_score_4_Taiga% &7jumps'
+  - '&45&7. &c%ajpk_stats_top_name_5_Taiga% &7with &4%ajpk_stats_top_score_5_Taiga% &7jumps'
+  - '&46&7. &c%ajpk_stats_top_name_6_Taiga% &7with &4%ajpk_stats_top_score_6_Taiga% &7jumps'
+  - '&47&7. &c%ajpk_stats_top_name_7_Taiga% &7with &4%ajpk_stats_top_score_7_Taiga% &7jumps'
+  - '&48&7. &c%ajpk_stats_top_name_8_Taiga% &7with &4%ajpk_stats_top_score_8_Taiga% &7jumps'
+  - '&49&7. &c%ajpk_stats_top_name_9_Taiga% &7with &4%ajpk_stats_top_score_9_Taiga% &7jumps'
+  - '&410&7. &c%ajpk_stats_top_name_10_Taiga% &7with &4%ajpk_stats_top_score_10_Taiga% &7jumps'
+  position:
+    world: parkour_world
+    x: -27.92319425360039
+    y: 85.44385990029258
+    z: 1507.8735292642302

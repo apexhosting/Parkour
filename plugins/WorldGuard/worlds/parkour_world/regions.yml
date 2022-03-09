@@ -12,8 +12,8 @@
 regions:
     __global__:
         members: {}
-        flags: {time-lock: day, build: deny, use: allow, fall-damage: deny, invincible: allow,
-            chest-access: allow, weather-lock: clear}
+        flags: {time-lock: day, item-drop: deny, build: deny, invincible: allow, fall-damage: deny,
+            use: allow, chest-access: allow, mob-spawning: deny, weather-lock: clear}
         owners: {}
         type: global
         priority: 0

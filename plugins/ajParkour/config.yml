@@ -9,7 +9,7 @@ area-selection: lowest
 # Whether to pick a random block each jump, or a random block at the start.
 #  Options: 'each' or 'start'.
 #  Default: each
-random-block-selection: each
+random-block-selection: start
 
 # This is the item to show in the selector GUI to represent the random block mode.
 #  Default: VINE
@@ -30,11 +30,11 @@ jumps-ahead: 1
 
 # The sound to play when a player starts parkour. See jump-sound for more info.
 #  Default: NONE
-start-sound: NONE
+start-sound: ENTITY_PLAYER_LEVELUP
 
 #The sound to play when a player falls. See jump-sound for more info.
 # Default: NONE
-end-sound: NONE
+end-sound: ENTITY_GENERIC_EXPLODE
 
 # The number of particles to spawn when a new block is placed.
 #  Default: 25
@@ -43,7 +43,7 @@ particle-count: 10
 # When to execute the reward commands.
 #  Options: 'earned', 'after'
 #  Default: 'earned'
-execute-reward-commands: after
+execute-reward-commands: earned
 
 # If this is true, the player's inventory will be cleared while on the parkour, and reset after.
 # NOTICE: If one of your reward commands gives items, you need to set execute-reward-commands to 'after' or else they will lose the items.

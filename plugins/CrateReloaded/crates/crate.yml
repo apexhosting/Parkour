@@ -47,6 +47,7 @@ TagsCrate:
         minimum-rewards: 1
         maximum-rewards: 1
         rewards:
+            - 'chance:(9), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&bMYSTERY_DUST&8] lore:&8500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(mysterydust add {player} 500)'
             - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
             - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
             - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
@@ -114,6 +115,7 @@ ParticlesCrate:
         minimum-rewards: 1
         maximum-rewards: 1
         rewards:
+            - 'chance:(9), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&bMYSTERY_DUST&8] lore:&8500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(mysterydust add {player} 500)'
             - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
             - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
             - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
@@ -181,6 +183,7 @@ HatsCrate:
         minimum-rewards: 1
         maximum-rewards: 1
         rewards:
+            - 'chance:(9), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&bMYSTERY_DUST&8] lore:&8500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(mysterydust add {player} 500)'
             - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
             - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
             - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
@@ -248,6 +251,7 @@ BannersCrate:
         minimum-rewards: 1
         maximum-rewards: 1
         rewards:
+            - 'chance:(9), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&bMYSTERY_DUST&8] lore:&8500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(mysterydust add {player} 500)'
             - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
             - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
             - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
@@ -303,7 +307,7 @@ RewardsCrate:
         minimum-rewards: 1
         maximum-rewards: 1
         rewards:
-            - 'chance:(7), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&b&lTAGS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} TagsCrate)'
+            - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&b&lTAGS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} TagsCrate)'
             - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&c&lBANNER&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} BannersCrate)'
-            - 'chance:(7), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&e&lHATS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} HatsCrate)'
+            - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&e&lHATS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} HatsCrate)'
             - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&d&lPARTICLES&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} ParticlesCrate)'
