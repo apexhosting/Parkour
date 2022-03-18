@@ -44,7 +44,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,inventory,owner,mounttrait,type,location,scoreboardtrait,skintrait,sneak,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -91,7 +91,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,skintrait,sneak,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,7 +141,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,sneak,skintrait,hologramtrait,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,hologramtrait,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -188,7 +188,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,sneak,skintrait,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -235,7 +235,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,inventory,owner,mounttrait,type,location,scoreboardtrait,skintrait,sneak,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -282,7 +282,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,skintrait,sneak,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -329,20 +329,20 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: equipment,inventory,owner,mounttrait,type,location,scoreboardtrait,skintrait,sneak,commandtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '9':
-    name: EliasEnamorado
+    name: '---'
     uuid: 59de3a2a-878d-4fb4-b3e2-792b65b01aea
     traits:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
         signature: Bdxbq++iN6FMO/yWtfNmnO08TCw2HTS9w4Il7AwX8XkP5QJ2rOVKbGGZrOcLpF7oMK8Sujr8Bl2/Bz4ApVy09xaBNeEez2+l4Exi+z7+5h3OgZ5vXOwyY06RlFC6NEfDPr9vAjDrdLxwhlqs+DwnWbyYvWHYN7aQriHMnhRyo3xiTtqKhxbNgvYiL73wv93/YRH5pBrOcKdqkMCqNZfDuvsXkFPGhLsswy5Jd1FmYqKW+JlGGXGyqKRXXFuAd3TfTUanXxjqrKNqIZJ9B3IlBVhhDYCNEO7KO+RneICCqRUpjSsYNT8WV0G3IGzd72TgfDBo5dMKqTJcJlCGkvAjKObbxuK0vgfZ68zphkicojf/5qQSeTYSzXao5FVBjiTTu73lKAV4lerS05f0tUTUvMdwc5BW9Bt5ou9vRmknTtytYUNMc7kV8A+k7iCjO7+GQMgIAYRIXVx9UEjasRPHEaDHYW3dlFeibLgxF8HS/fxPJm82DIAr09yafmnlJzYNN4PkMQ9HRbUMkltxCuwavihC9WXdCWji6aXuqyhTxriTQoYFSKaWM8SxCVKh8xjC2C+65qhYM1auYg5D+cNrziFLJ56msmIey7wRZv17V3VHLgvoM+pfLnjScFpxEOJvNxQ7cCnsj/1sR/DoMpesjDU1BazXHkfU5XrLGRvbi1k=
-        skinName: EliasEnamorado
+        skinName: '---'
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc3NjEwMjM5OSwKICAicHJvZmlsZUlkIiA6ICI4MTk3MTk3ZGE2Mzg0YzlmYjY1YzBjOWRkYjU2NmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGlhc0VuYW1vcmFkbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTQ1YjAwYjkzYzc4ZGQxMjc3YmRmNjMwMDk2MzgxMzg0YmNiZDBmNDU3Y2RhYzdiN2UxNTYzZDAwYmQwZjQ5IgogICAgfQogIH0KfQ==
       sneak:
         sneaking: false
@@ -358,7 +358,7 @@ npc:
         z: '1492.0414'
         yaw: '84.904'
         pitch: '9.1497'
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,sneak,skintrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -368,14 +368,14 @@ npc:
       cached-skin-uuid: 8197197d-a638-4c9f-b65c-0c9ddb566cf4
       nameplate-visible: 'true'
   '8':
-    name: Cuaris94
+    name: '---'
     uuid: 4cedc340-72c8-46dd-a90c-a7bb4c761562
     traits:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
         signature: jYrUuQajcjJL76S5dDQBYGUIiMiMP/SJv0Kz3LYaVUsijMbfxXLSmYWFpk6Mz3VpZl2zxi3FU6Di4B29Kqmezsf5/JLFU2Us2Emp5YXGiLrxEnEimx2pnmQx8ghlnlgqku1lK+Qj2wzwecw6aDxid0hUndpDWU/D3wPVoCX2OV1NRc6o/ToZuWZJWd/V1kBKY0sEK+V/eeERb7ywG2lgTwWRz6nnnH5pZyyHVzDeSfZZU3DLzbJCmGdod7/cN4Ohs6XuBzlCEugoVfatCfyqj5KKRvgSrJg31CaqvBS8N0TKdmedb44JFj1nxIbRydYWuM9OaurqEpXJFB9EhOQoq6QZwBP5SnsAOmgQOL/7HJbhDZChTv02DuJG6auKc0TOWUYVr2XUAKkK+WS3XPktI3DaTE7piF8IzYfRikITEH2JTGsyb2CFQqbjLmMQVUvsOLFMOy11UXquGAB+IeIDJLAhfitnlyaW2TGrGoQKMfX5kEOhwtJGJvke8KNPaXGL9C4wUEO+5Aqw4efxeJaUhnSjv1m7O02DeA7dyPbi1cCAAdc3ajWQrGWhWG5S/XRlcc+a93Li7ThZfXCMotOpbwzNZFPPSIHpokLq7l3tpMbdIIwcTptkvA/TW/BUT1WXRLsYwXdeMATN0IPRhvcEjk6lQP+9365Ejutp1LdM4hM=
-        skinName: Cuaris94
+        skinName: '---'
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc3NjE2MjI1NywKICAicHJvZmlsZUlkIiA6ICIyMjMzMzk2ZDJjYzk0MzEwYTA5MjU2NzNiNmM3MjZkNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDdWFyaXM5NCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTE2MzA0ZmU1NDU5ZDIyYjNhYThmODM2YWU5ZWVmYTZmOTVmNTNlYjVmYjRkOWYxNTgyNzg1MDViZGY2MDE3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       sneak:
         sneaking: false
@@ -407,7 +407,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,lookclose,sneak,skintrait,hologramtrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,hologramtrait,lookclose,skintrait,owner,scoreboardtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -417,15 +417,15 @@ npc:
       cached-skin-uuid: 2233396d-2cc9-4310-a092-5673b6c726d6
       nameplate-visible: 'false'
   '7':
-    name: Schvaar
+    name: zFth
     uuid: 92d3b9a5-e4ba-4ec2-a65a-376ccdbe9243
     traits:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-        signature: Ogr87mg1L/XeP8LZikj33u+vo+EnwlZYkFzFFZqKgY7dTCWGkjHkaBatTleUyEM7hc1lIzTogAWZeS+ZucqrD++iEx8qjRNtPUHFqMB6/xKANccBylYz1gFx+eYB3orW2CeEm6LBOwJydSW13512uUesCa6RtvJYMnfOmuGZbmuAnzvg53tajPP8ZL0wB973z+9WE6cuPXXMNewr3m+bIdbdVba9phgRaaaHSlBgarhCaLkPcFoBzL2yWlIGqaYQbCXsVOXMZE3Q2soj3Gwb3PV4MzUi4+zH2xw3HOqW9MszQg0LTI1Gz2eS/qbzN/OetWqxw+j5cB6cRtEOGPMLLEB50hCcmEo6UcFSUhw06D448mIYUjAOrtGvythvWdS42/vKJTG6WYB+xbcKZ48hR/DbUlbcc8W32U5Nb8/sQvjhHb15NpYFuOCFxuWbqSVmQpxei43LvX6v+ZY8Y+wjRh6OZqqTzvU1gpwpVWfyWCYbAl6vfPBJwUKw7UQ5aIdHPmgABUMHkYxRh9mvLwKDqTg+2RhHSSIOipXUrXnpbDc7X8fAOd8IfHUSi14vBGPOiUvcwa/4DUp6olz9wafIC3c9eXQGkDPvsBME29i7qaD8201ZWcQ3paK6GdhUWGQLWBMaCunwMokTQV3vm4at/uH66xL0CEZARGuwJWxgPXc=
-        skinName: Schvaar
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc3NTgwMjQzOCwKICAicHJvZmlsZUlkIiA6ICI1MGFjYmIzMTQ5MTI0ZmNhYWZjMDlkM2U3NDQzYTIyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTY2h2YWFyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4NGQ5NDkyOTdiZjQxZWUyMDA0MTYzMDY0N2FmNGRjZDdmMWMwZmMzODBmOGRkNzE1MjU2Yzk1YzRiZGNhYTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        signature: VBRPJESxt0NBXf1+qoksk50plfjSEZqhv++/BAaFrPzFQytbCEMzLBUIZS2SvPrnYi12etTOUZHoPnRsciNso/xyjK2v8c4MkdtDj9OHmw/Iieqf3WMHDAzKBkiKQA8mzKxObweFsyZNuooIX75ZdB0TcT76zinYN9XMbpb+EPmQiV/TwVgXCY9cnslTHVEQBrBwJ307cCaHUClYyLq/8v6QoRHvjj8KOIvD6XycaxR76RyIqIlceFjKLAhozxEln07NxgBaq/SlLEmSPPpWRjlkF4EGXIWUfH5qVIsfqeJz5lO/gV1L+VaKF2Mse/UbPdMcHTTpB2vwrYGEIU3yDV/yn1gPdoM55TbKxhARCBf5+Fb+7gx4rQAaFF809PkvXaw/mO4l+J1jG98d9iiwJdqd1K1FyfgmeMxn+ZK9YfPSDR3JhdMYXph94c4yobp4OoWzEeMLbUSx4MFHsA2HD6jmIsPdAR39DXeAXeypNGLIMuHrvJtZa6tjeOAzmqxdx1MdUOD2jIld74NsiArD2WaOaJtOt62cpks9NVjjm+S1sUDYXnh8pivW8ILIHoSjmfh1gNpOqwHi4REB6YyFADR+hhW76W7FLlIeQeCNmcJ/eou3NvFtEZ3ZlMMo7iZMefRfZ//qe0OJ1TjnWJXquwweYpQPXNVxFlkLdcinNQM=
+        skinName: zFth
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njg0Mzg5MjM0NSwKICAicHJvZmlsZUlkIiA6ICI1MDJlOTM4NWRmMTM0YjI1OTcyOGE1M2FhMGQ4ZjdmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6RnRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhMmFhMTcxNWExYzU1MDkyNTE1Njc3MWM5Mzc2YWI5NDY0NTg2OWI0ZmYxMzhlYmZhMDM0YjVkY2EzMjllOTUiCiAgICB9CiAgfQp9
       sneak:
         sneaking: false
       owner:
@@ -440,12 +440,12 @@ npc:
         z: '1486.1491'
         yaw: '89.104'
         pitch: '9.1499'
-    traitnames: equipment,owner,inventory,mounttrait,type,location,scoreboardtrait,sneak,skintrait,spawned
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
     metadata:
-      cached-skin-uuid-name: schvaar
-      cached-skin-uuid: 50acbb31-4912-4fca-afc0-9d3e7443a222
+      cached-skin-uuid-name: zfth
+      cached-skin-uuid: 502e9385-df13-4b25-9728-a53aa0d8f7f4
       nameplate-visible: 'false'

@@ -127,7 +127,7 @@ inventory:
       display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Collectibles"}],"text":""}'
       lore:
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
-        Dust: "},{"italic":false,"color":"aqua","text":"100"}],"text":""}'
+        Dust: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
       - '{"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
         fun cosmetic features!"}],"text":""}'
