@@ -1,0 +1,195 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Shop"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Name
+        "},{"italic":false,"color":"yellow","text":"Geeeri"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Hours
+        played: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Money:
+        "},{"italic":false,"color":"green","text":"76500"}],"text":""}'
+      enchants:
+        Glowing: 1
+      Damage: 3
+      internal: H4sIAAAAAAAA/62UubLjRBSGNVMDdecyPAJV5C5Km+VrBwTaN7dsbZa7M9mSrd3at2ciJySDnJAqXoEq3gDNZSiGnKjP+p/vdHCeMewZ+2CnXZYd68ctzsIn7J3h5yH2pRyGYR0/Y89LogzrNg6b99hTG45tV4fNM4Zhb56w93Z8L/yPkbc/1B6x0mxlQlPA3NsK1Me6qoxe0udwdWtRF+z4su/c9V7MxK1hAVrvw1bNVt4p3Uts4QKvNUxSVWU9PbT8I+kMDe8maeMMoRT3JC3Iq3VgtjduS0D8MMahz8m45ZimIxLKwxI0srYDXAzCtahotCDcDDNcbSmFxZuiSCaztM5n/yUgm1rrDSFeO8dBoHGKvLObFVKkEC8zPh+PL0kCHJzLWK0A+e5Q8lq8pv3cEP3+AlXpyvQ6MByTlZrmUrnseHMN0sLDcrOXuyukM0LIh9IEaV1N9Pq2LvZMNHfNJbUKWzNNKbGFh0MgQvT32z5l3M11tAwCP809h/c4CvEi4Sxhp8qCZk1S6cDWpnekvnHtoymk54k70t5VlOFWkHkxHZnsnlitfbFW7gbQfP44ssI8efsKefikUVV3bKX5nJSHiGpuU4vc5r6JNyv/DGbBQly/nu0smlS68+lcPbBZEVQlo1eOW1d26eYpjASvN/eR1Y61q+A450tDxer56N00gx50gU4vsTac8DGMKBgWG/nub6x1UTM8A5Cip/Vxd/MIfcvkK5/Ss7w7MxujOjMN6XXnip6Cl3HBlGulD0zaZe8P+/LCQjq4zHyiZ6s9evh84qVHFmoSubXkAlFitS8V6q5yoXk61Z2/DXuxhEN+D0e7OL4gjq2c7ZHqgJ5KuJs3nLyV8ZNoom752C1fC+b3T9gXJz/rwrdOODzuKq8RvkdmV9qKLmc2VoXHHTiQMJIrDWbAACeljXjQVZ6Nr4rWozxrkJulasxult7ESNgBeafYoACNZJGAuZXCHOXAMycjd2ngsMNizwdbbfiYvasFN10oVF7k0wEucz/pKItGds3TeM++Ms2+F3TwbJHX/GSjs0T6Zy1DvHo/xBxxLU7ZpzoCnSMiWHLX6TX38jpjYXWJVnPi/8Q+1i96w+uOar70KexmP+0+02Ba32MySGsRKszukp+IPW1lofKRw+2RrFIouY4HB6wNIaUhpUUwsbLFngyBi0ESRNCJIiTAGQlgNpIgOThcivJFTzYHJBiLD6ePPnBc0vCsCE6q/sqmEM0/7CYhmZb9/7KDBBBABgNy2HlhmQxZHIGnjoYnrmECZjhrkUG5DHLABD1t2YUll/yy131Ey27QCVLkodRIAAkpkYZOOoN/2ZeX2/EF8T2GfYW9VYPlRL77Gfvjx19+03//6c9fiwr7Zoc9YV+rbZhrj7j41s4eLfaG+Dz0ens/lH/f4u/iJYz9BYfnyvKkBQAA
+      skull-owner: Geeeri
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"aqua","text":"TAGS
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool nametags."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"yellow","text":"HATS
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool hats."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"green","text":"BANNERS
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool banners."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: COMPASS
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Join
+        Parkour"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Join
+        the parkour tournament"}],"text":""}'
+      enchants:
+        Glowing: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.2
+          name: generic.attack.damage
+          slot: HAND
+          uuid: 4efd831d-c245-3f5f-8158-a4ab67b05c51
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 19.0
+          name: generic.attack.speed
+          slot: HAND
+          uuid: c5d715a0-5937-3455-92d4-f4a971a97e49
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRBFvJLzE1l4ChOzUlNLskvYgAAVDlCYjEAAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 6
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"light_purple","text":"PARTICLES
+        "},{"bold":true,"italic":false,"color":"gray","text":"KEY"},{"bold":false,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+        cool particles."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Right
+        click to open!"}],"text":""}'
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Collectibles"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
+        Dust: "},{"italic":false,"color":"aqua","text":"0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
+        fun cosmetic features!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"More
+        stuff will be added over time,"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"make
+        sure to check our update forums!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thanks
+        you for supporting our server."}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBi4HZPTElPLSn2Tc0r5WDgBVHxwak5qckl+UUMLCVFpakMDADi74YlKQAAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

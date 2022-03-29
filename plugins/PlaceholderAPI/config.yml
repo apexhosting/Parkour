@@ -1,5 +1,5 @@
 # PlaceholderAPI
-# Version: 2.10.2
+# Version: 2.10.4
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
@@ -8,10 +8,31 @@
 # Discord: https://helpch.at/discord
 # No placeholders are provided with this plugin by default.
 # Download placeholders: /papi ecloud
-check_updates: true
+check_updates: false
 cloud_enabled: true
 cloud_allow_unverified_expansions: false
 boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
+expansions:
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'
+  vault:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+    baltop:
+      check_delay: 30
+      cache_size: 100
+      enabled: false
+  localtime:
+    date_format: dd/MM/yyyy hh:mma
+  bungee:
+    check_interval: 30

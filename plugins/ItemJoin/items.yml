@@ -1,0 +1,48 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  selector:
+    id: COMPASS
+    slot: 4
+    name: '&aJoin Parkour'
+    lore:
+    - '&7Join the parkour tournament'
+    interact:
+    - 'op: basicsmenu'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-sequence: SEQUENTIAL
+    commands-cooldown: 5
+    cooldown-message: '&7Please wait 5 seconds before opening the menu again.'
+    attributes: '{GENERIC_ATTACK_DAMAGE:15.2}, {GENERIC_ATTACK_SPEED:19.0}'
+    itemflags: unbreakable, hide-attributes, self-drops, death-drops, CreativeBypass, glowing
+    triggers: join, respawn, world-switch, region-enter
+    permission-node: itemjoin.ultra
+    enabled-regions: region1, region2
+    enabled-worlds: parkour_world, world_nether, world_the_end
+  profile-item:
+    id: PLAYER_HEAD
+    skull-owner: '%player%'
+    slot: 0
+    name: '&cShop'
+    lore:
+    - '&7Name &e%player%'
+    - '&7Hours played: &b%statistic_days_played%'
+    - '&7Money: &a%vault_eco_balance_fixed%'
+    interact:
+    - 'op: crateshop'
+    itemflags: death-drops, self-drops, glowing
+    triggers: join, respawn, world-switch
+    enabled-worlds: parkour_world, world_nether, world_the_end

@@ -1,4 +1,451 @@
 # Citizens NPC Storage
 
-
-
+last-created-npc-id: 9
+npc:
+  '4':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §b§lAQUATIC
+    uuid: 1da93556-2f71-4e33-83ed-727cc8afc5bf
+    traits:
+      location:
+        bodyYaw: -123.90637
+        world: parkour_world
+        x: '-42.7409'
+        y: '82.0'
+        z: '1508.5579'
+        yaw: '-123.9064'
+        pitch: '0.15'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      skintrait:
+        fetchDefaultSkin: true
+        signature: FttY4T9rtLWf2VJ7WOufcR6KSt1sldJt52ehMnSkSqxOxgEx/GW26fPNlKWkermvw3G2G2TywpJBNUclqao/9epVMNefxU3vxlb5Y9Ko25sDHiv4ZtmG/9Mvx1EErTOMZ1S76w3tLNdH5lafawgYCoWX0waJB1E+NNRwklYgIdx7lkScxS6x1210NiATl3+WvsHUXH/cJIGw2wGy2WCFdJuMqmfXsmpUTyUGF5Np+I3RFq1ERmwV9hc7FQ9uZAYT6Hgnnu7qkimJVxKIb8N19abkrklrJH4dl2vnpw8BkKG87ebFNdX7jIYuLlpFv+V+cnIIXrz71b1mKEOwg2UnPxxV79+f7NEPpuYwdSWmcjOsGyd8VABeM1IkBY8NkGiEgYp6LGxB7J+laeMZNagWGqng/fpzUARK0wKqi421h5ZW/Rwz92VoTjuzqocCuit6wyqbPZWpX8haI05BQ35oUnzzy+/jszzGp68GBKTjfEP9NFN3JOwYT+XtypuowMWKJegnD/L/o0txCNqCQwg+dxpI7JSGMUbE7qGnLi+eesz6i1GipDHlxovln0gRHoaRHq4BDkDfq8ounOaqdwj3mMm2vqINrD4trYD0fCQLer4Ykp6qPB55qQzmS5/eeWml9o70oOC8EXf2nI/MDvBxdQprJmXf1C/VUjtBAN7SUVE=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEyNDU4ODIyNiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: apexhosting
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ajpk start Aquatic
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §2§lSWAMP
+    uuid: 73c81859-cab3-4215-b259-73721a89962a
+    traits:
+      location:
+        bodyYaw: -86.18994
+        world: parkour_world
+        x: '-45.5064'
+        y: '82.0'
+        z: '1503.4949'
+        yaw: '-86.1899'
+        pitch: '-1.2001'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rSxSIo8GvaR/lGhK9PsAXdnKhsmO/twecd9VpLUTA7cnbmFb9nGDPHqc/dA9SgTf6joS16Ceg7BHk0wg6l1p/pWM1gs7A/Gijm7h0cZZLEVvrnEjPvAmvW41kxHVNGflWNje7GJpI+BkaXsbZkw9ORvkmm2ftiBQorNOJENqvkxoNWOB4aDj9uBRH7J9ozWd8jflVpgt2Cjup8eNG7IueyiOYw+Ys103u15wego5Bss1ykcOfkq/WOLIzxwuWEJVx9H0OD2qlOSI1ApxMz7aOm0sKnZhdY9YLkMWF+ik4L/vSxRzcHXb8b9gXy3DJPQvuUfilD6WwwWSO0xZh6UgRpU4QACakPHjF3dOXlZb8WgoZnKsht6frX5//jyYJgixQ8C3WdthukFUoK4zhfKcb2sBTzxaTKjTdDkR4GgHvR2fp7UrK2T1h/zK7vz2Rsz+o8RrO8/BHF97RTAFD9ppR6sw63uNNpxEBGS7CjlOU4QnQ3ukRGUayqfndfZepsldxV/3mMcPsImTxyQy/rkQ7ju7ZKKkaah3QJgVIB69Qn3EDAY47nj74I7saU1+b50k/7SzfLIgMnpfTkiDSFPjJfwcGT2pVEzYTPx3ptYedVEocavjO+f4jelI6bfXEFYT3K2T+qUz9vpbtxnN/HW5qoBZHh1JfYGG3q32vDtF/1c=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEyNDU4MDMxNSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: apexhosting
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ajpk start Swamp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §x§6§f§4§e§3§7§lTREES
+    uuid: 422c2a65-d0f9-435e-8d22-318d028d2842
+    traits:
+      location:
+        bodyYaw: -72.54712
+        world: parkour_world
+        x: '-44.5248'
+        y: '82.0'
+        z: '1501.4756'
+        yaw: '-72.5471'
+        pitch: '0.0'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rSxSIo8GvaR/lGhK9PsAXdnKhsmO/twecd9VpLUTA7cnbmFb9nGDPHqc/dA9SgTf6joS16Ceg7BHk0wg6l1p/pWM1gs7A/Gijm7h0cZZLEVvrnEjPvAmvW41kxHVNGflWNje7GJpI+BkaXsbZkw9ORvkmm2ftiBQorNOJENqvkxoNWOB4aDj9uBRH7J9ozWd8jflVpgt2Cjup8eNG7IueyiOYw+Ys103u15wego5Bss1ykcOfkq/WOLIzxwuWEJVx9H0OD2qlOSI1ApxMz7aOm0sKnZhdY9YLkMWF+ik4L/vSxRzcHXb8b9gXy3DJPQvuUfilD6WwwWSO0xZh6UgRpU4QACakPHjF3dOXlZb8WgoZnKsht6frX5//jyYJgixQ8C3WdthukFUoK4zhfKcb2sBTzxaTKjTdDkR4GgHvR2fp7UrK2T1h/zK7vz2Rsz+o8RrO8/BHF97RTAFD9ppR6sw63uNNpxEBGS7CjlOU4QnQ3ukRGUayqfndfZepsldxV/3mMcPsImTxyQy/rkQ7ju7ZKKkaah3QJgVIB69Qn3EDAY47nj74I7saU1+b50k/7SzfLIgMnpfTkiDSFPjJfwcGT2pVEzYTPx3ptYedVEocavjO+f4jelI6bfXEFYT3K2T+qUz9vpbtxnN/HW5qoBZHh1JfYGG3q32vDtF/1c=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEyNDU4MDMxNSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: apexhosting
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ajpk start Forest
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,hologramtrait,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §f§lTAIGA
+    uuid: 3b1a5eeb-d16e-4f3a-aad4-026107e2e498
+    traits:
+      location:
+        bodyYaw: -97.589966
+        world: parkour_world
+        x: '-45.5087'
+        y: '82.0'
+        z: '1505.477'
+        yaw: '-97.59'
+        pitch: '-2.1002'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      skintrait:
+        fetchDefaultSkin: true
+        signature: i+1f7S30nsXudO4ILu8D4POQ+k4YoBZDQRPD/IxYd4xQICg69nVMpjf39Hk2EremgVp2nsnOwQw/N8ZRYu8KDXEo0wgTWIvhJKB0kE8TrEqyoErYXJlr876+tm5+2NOtenEN43TErIi1OVktphhokZtxYoV45yAgut75k1oFxN1xXmr+OH1upo4+70En+VT3YMddc1E3P8uFXQux9G4kvFhIPPSdg8jz0lexD82dOhVquXp6aVe/XsfCB+YlY1Lry2nBhk153NNExvGyNX7veuccEBqkF1IdgdVvt0888wYWZIiT/bohqZciPLMxnZjgOUu2kLeNzmb2z/icAds9WaNF0c5sZsNT6AO5AwfJ5MOlJd7Xbep/myIe00QMqFCw9OyXbi7YjlzC/iS1W7rOyzLQb/FIMOmqs0Y+L69u/aJ8e4d9997gsFGepgyoEsHlUpmLmRUn8dDFeQ/1BY6ok/cBikL7Y/NzZcfdOeAGfnAr8BFYCXBx5rkTjsUtV49rY4AlD7pC/B5MHQpirT0a3GtkSVjKfuB25ba2ScqjtblpzMeWQeUoO//HrQgG6I7nnA88+BraQ3KB4BbwjOC5/dehuX8r09EXEnD29zzbW5Vw8duGXIuQjynYZe10rhUZO7pVqZYC2Zr/6UiuxhmOIGdSbrKrcSd/Plw+3YhnjJQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEyNDU4NjI0MSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: apexhosting
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ajpk start Taiga
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §6§lDESERT
+    uuid: 2e753a07-980a-4b69-8d24-38148036ac6e
+    traits:
+      location:
+        bodyYaw: -135.31335
+        world: parkour_world
+        x: '-44.7843'
+        y: '82.0'
+        z: '1507.5809'
+        yaw: '-135.3134'
+        pitch: '-0.2999'
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      skintrait:
+        fetchDefaultSkin: true
+        signature: wfZwzUHMafIqAUNC+cYU/ooxl2mLJTVFPnkEuD8E8yHlEEO0C8A0XGT62RuSc98UwACyO+xTUSZ8UR6aPNt95j3rYpN9LNwS3HsdIB8wQeOe0sr7VHgkQ8nrANK/yu4ecYxzKRcVgvi4yJqH8uqKRROYYRyMAXG494ZKllgrlkdCP6kL2qh1jwddlfnVbZ3gEByq6mc3txNWiOsu/+vCoyQXaG8C8IsV7jpgBH0y9NCpCmO03WPTbfZsD4srUMHMKp1w0ML8jwXN+i2sVQMKQB51Kl6VulIddJaSAqvIcLkeMjOVrTbzIusBJhkZPuFSl/lmg76Yla2x9FIowH0wJUZ/oC3kmIpy5jvFZmJeNLW6mugqrYfygvWRNzgvQkUM9jmDcYHREDuN8FYUUYfB3caO+vIhF/jnMJrqAWuhcwHD+2JqiboGoT/cenOomMITqGGvo6Dig/p3Uj1WhliGt/aK/e6vtiBg6vejc5MsNxL4htiZO6WcW0xVbZESvWnv5x/mSkVy5auN1KTWxKo9y/8UUTmhrPjjG/Z+VSOWmpiXQXTGdtbTfaxSOUGU7Sbj6X6x8hMIYSTKxhW7MAruBpqnu2O1jtDsqT2bplXvZIhexcoi5brjmvnm8lH4prKnTvBK8rx0qtb5QbosxXW1ps+UPDsQ1ZnymgLJEyf+JKQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEyNDU5MzIzNiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: apexhosting
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ajpk start Desert
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §c§lTAGS
+    uuid: 8bf15567-1f6f-4d70-821a-912ada53dd9b
+    traits:
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Hc4bBUzrXeBLCR3ub51rQeHWqygBPI9MHKcxo3ahVFtYDIZYSqX92ZhJVRUYFYqy1jDQXJTyU50ifX6xWDyMO9UBq3u4C3Ss/Bfp584q+eFU4RZBLz+zeZkv/AgZnfi1r+A0v8p6p7P6vPYr0y98cXvlB9uGIW4I+KUCQ15yTDqUOg/fTvnJ8T+a+dxvVeeNxINEDMum3qtBgi6iWKFieILjVmv4pxLGpll6NE5XQ3JHWJqf0TYbWvyPlmeOnnvDA6mj3LM5i8adu/FldwZose4mzT5R7dbnTtl7nfoQm8rUc7LX5L+O8Ild6UVzvi7IxohC4Pg2gNLSOWmf81HCTfFfoueVzK2rUlEWkGRljnZISavdwdib07eDOJWM75of9WxTDYhRAQegpGUwjrC4cmwAHGZCOVvJgOQ/aZLbILcnO3Irv9M4XgkS6F6QsEIFMDNT+4nBdkUrrQu06rIdB2NVGgV82I6nLkOl7aqyL4yYNSwpn5wB2JdGN0TQs1JTr0lNaSAPYQE5eQFRlyXZRWHCcpk6g4W4C5t4lA3LJ31NvAbxPPMA/SmiDoZR+cYhk+bdHwWJihA7LtWu5emwU0/Is5rWp1RXU4v4FYO6dQ6PlovApgFWtwtrizZwtpANwt8zdmpBXxgwugl08ms7H1vp+GGal8PSCLa58T7tWiM=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTEzMjg0NjI4MywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      location:
+        bodyYaw: -100.054504
+        world: parkour_world
+        x: '-23.7'
+        y: '85.0'
+        z: '1539.7'
+        yaw: '-100.0545'
+        pitch: '3.1497'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: tags
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+    name: §a§lSHOP
+    uuid: 33eed5a9-5269-46d5-b3a1-e7beb803464b
+    traits:
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: OO1ZitkKvPYl+YLchrbQ2C+VWBI+dUL7LATleLrquuWUbyVMQVYE6HktD3VqQ+FQzMxLQ8nApsmOa2j10dkAUElsfNiGDd03eOWN7q0BIafRvtn2/Y9QuAmigh/bhYJquScqsSLeSfRzNFgMCZPANs3q9Oe2rI9UUEZwUm0EDh3AR9iIERsAy7ainROSIHUO3NXGcIohG1XZmlahiP9ZaNV1qmT6Ml5uhF79oUyDDicAgL7wO70F9W7zwnzuETtVF/D9y1NfE5+vtQz62Wwoftji20fUF1XJ5rUAUCbrK2pnqQQANNY+ZKe1HlqyxaVkGl0LpFUf10KaLbMehsZN0+yu+w6ec8uv4DM4xhr+CJNbTebJus8ASYVDJnv6DT7zTj1W+OGjee4JNOWWE0ERg3fSStoBMGYeBw3AslnI0GC+qdopGz6GelywXSf713fUbXBhH5qCTf1NFgrXn1zcL6WHziHxkWaq7Me3nMptqDCWS8GkkZ/kFxqfSoFpr0LwbeP7vSFJa4kfZu3cqde1muGE1Dpg4wDSjTxNUv5yH4WYnoErVej5X+yxjvecuB+sxqoWsZIqw5qWIhm6QHzF0wFsbKc9mV/juGH4t7Z/1HhNnKkEF4GdKfD3obAqO0W/2dnm/W05j+yAgwIyYY+eAcVEAxBkeLqzKHnVVN+SM+4=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTE5NjEzNzI0NSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      owner:
+        uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      location:
+        bodyYaw: -85.50348
+        world: parkour_world
+        x: '-23.7'
+        y: '85.0'
+        z: '1536.3'
+        yaw: '-85.5035'
+        pitch: '0.8993'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: crateshop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,commandtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: '---'
+    uuid: 59de3a2a-878d-4fb4-b3e2-792b65b01aea
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: Bdxbq++iN6FMO/yWtfNmnO08TCw2HTS9w4Il7AwX8XkP5QJ2rOVKbGGZrOcLpF7oMK8Sujr8Bl2/Bz4ApVy09xaBNeEez2+l4Exi+z7+5h3OgZ5vXOwyY06RlFC6NEfDPr9vAjDrdLxwhlqs+DwnWbyYvWHYN7aQriHMnhRyo3xiTtqKhxbNgvYiL73wv93/YRH5pBrOcKdqkMCqNZfDuvsXkFPGhLsswy5Jd1FmYqKW+JlGGXGyqKRXXFuAd3TfTUanXxjqrKNqIZJ9B3IlBVhhDYCNEO7KO+RneICCqRUpjSsYNT8WV0G3IGzd72TgfDBo5dMKqTJcJlCGkvAjKObbxuK0vgfZ68zphkicojf/5qQSeTYSzXao5FVBjiTTu73lKAV4lerS05f0tUTUvMdwc5BW9Bt5ou9vRmknTtytYUNMc7kV8A+k7iCjO7+GQMgIAYRIXVx9UEjasRPHEaDHYW3dlFeibLgxF8HS/fxPJm82DIAr09yafmnlJzYNN4PkMQ9HRbUMkltxCuwavihC9WXdCWji6aXuqyhTxriTQoYFSKaWM8SxCVKh8xjC2C+65qhYM1auYg5D+cNrziFLJ56msmIey7wRZv17V3VHLgvoM+pfLnjScFpxEOJvNxQ7cCnsj/1sR/DoMpesjDU1BazXHkfU5XrLGRvbi1k=
+        skinName: '---'
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc3NjEwMjM5OSwKICAicHJvZmlsZUlkIiA6ICI4MTk3MTk3ZGE2Mzg0YzlmYjY1YzBjOWRkYjU2NmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGlhc0VuYW1vcmFkbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTQ1YjAwYjkzYzc4ZGQxMjc3YmRmNjMwMDk2MzgxMzg0YmNiZDBmNDU3Y2RhYzdiN2UxNTYzZDAwYmQwZjQ5IgogICAgfQogIH0KfQ==
+      sneak:
+        sneaking: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 84.90402
+        world: parkour_world
+        x: '9.6247'
+        y: '83.0'
+        z: '1492.0414'
+        yaw: '84.904'
+        pitch: '9.1497'
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: eliasenamorado
+      cached-skin-uuid: 8197197d-a638-4c9f-b65c-0c9ddb566cf4
+      nameplate-visible: 'true'
+  '8':
+    name: '---'
+    uuid: 4cedc340-72c8-46dd-a90c-a7bb4c761562
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: jYrUuQajcjJL76S5dDQBYGUIiMiMP/SJv0Kz3LYaVUsijMbfxXLSmYWFpk6Mz3VpZl2zxi3FU6Di4B29Kqmezsf5/JLFU2Us2Emp5YXGiLrxEnEimx2pnmQx8ghlnlgqku1lK+Qj2wzwecw6aDxid0hUndpDWU/D3wPVoCX2OV1NRc6o/ToZuWZJWd/V1kBKY0sEK+V/eeERb7ywG2lgTwWRz6nnnH5pZyyHVzDeSfZZU3DLzbJCmGdod7/cN4Ohs6XuBzlCEugoVfatCfyqj5KKRvgSrJg31CaqvBS8N0TKdmedb44JFj1nxIbRydYWuM9OaurqEpXJFB9EhOQoq6QZwBP5SnsAOmgQOL/7HJbhDZChTv02DuJG6auKc0TOWUYVr2XUAKkK+WS3XPktI3DaTE7piF8IzYfRikITEH2JTGsyb2CFQqbjLmMQVUvsOLFMOy11UXquGAB+IeIDJLAhfitnlyaW2TGrGoQKMfX5kEOhwtJGJvke8KNPaXGL9C4wUEO+5Aqw4efxeJaUhnSjv1m7O02DeA7dyPbi1cCAAdc3ajWQrGWhWG5S/XRlcc+a93Li7ThZfXCMotOpbwzNZFPPSIHpokLq7l3tpMbdIIwcTptkvA/TW/BUT1WXRLsYwXdeMATN0IPRhvcEjk6lQP+9365Ejutp1LdM4hM=
+        skinName: '---'
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njc3NjE2MjI1NywKICAicHJvZmlsZUlkIiA6ICIyMjMzMzk2ZDJjYzk0MzEwYTA5MjU2NzNiNmM3MjZkNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDdWFyaXM5NCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTE2MzA0ZmU1NDU5ZDIyYjNhYThmODM2YWU5ZWVmYTZmOTVmNTNlYjVmYjRkOWYxNTgyNzg1MDViZGY2MDE3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      sneak:
+        sneaking: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 91.203606
+        world: parkour_world
+        x: '-0.9269'
+        y: '85.0'
+        z: '1473.0213'
+        yaw: '95.4097'
+        pitch: '-2.2928'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,sneak,type,inventory,location,hologramtrait,lookclose,skintrait,owner,scoreboardtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: cuaris94
+      cached-skin-uuid: 2233396d-2cc9-4310-a092-5673b6c726d6
+      nameplate-visible: 'false'
+  '7':
+    name: zFth
+    uuid: 92d3b9a5-e4ba-4ec2-a65a-376ccdbe9243
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: VBRPJESxt0NBXf1+qoksk50plfjSEZqhv++/BAaFrPzFQytbCEMzLBUIZS2SvPrnYi12etTOUZHoPnRsciNso/xyjK2v8c4MkdtDj9OHmw/Iieqf3WMHDAzKBkiKQA8mzKxObweFsyZNuooIX75ZdB0TcT76zinYN9XMbpb+EPmQiV/TwVgXCY9cnslTHVEQBrBwJ307cCaHUClYyLq/8v6QoRHvjj8KOIvD6XycaxR76RyIqIlceFjKLAhozxEln07NxgBaq/SlLEmSPPpWRjlkF4EGXIWUfH5qVIsfqeJz5lO/gV1L+VaKF2Mse/UbPdMcHTTpB2vwrYGEIU3yDV/yn1gPdoM55TbKxhARCBf5+Fb+7gx4rQAaFF809PkvXaw/mO4l+J1jG98d9iiwJdqd1K1FyfgmeMxn+ZK9YfPSDR3JhdMYXph94c4yobp4OoWzEeMLbUSx4MFHsA2HD6jmIsPdAR39DXeAXeypNGLIMuHrvJtZa6tjeOAzmqxdx1MdUOD2jIld74NsiArD2WaOaJtOt62cpks9NVjjm+S1sUDYXnh8pivW8ILIHoSjmfh1gNpOqwHi4REB6YyFADR+hhW76W7FLlIeQeCNmcJ/eou3NvFtEZ3ZlMMo7iZMefRfZ//qe0OJ1TjnWJXquwweYpQPXNVxFlkLdcinNQM=
+        skinName: zFth
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0Njg0Mzg5MjM0NSwKICAicHJvZmlsZUlkIiA6ICI1MDJlOTM4NWRmMTM0YjI1OTcyOGE1M2FhMGQ4ZjdmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6RnRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhMmFhMTcxNWExYzU1MDkyNTE1Njc3MWM5Mzc2YWI5NDY0NTg2OWI0ZmYxMzhlYmZhMDM0YjVkY2EzMjllOTUiCiAgICB9CiAgfQp9
+      sneak:
+        sneaking: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 89.104034
+        world: parkour_world
+        x: '0.6969'
+        y: '91.0'
+        z: '1486.1491'
+        yaw: '89.104'
+        pitch: '9.1499'
+    traitnames: spawned,sneak,type,inventory,location,skintrait,owner,scoreboardtrait,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: zfth
+      cached-skin-uuid: 502e9385-df13-4b25-9728-a53aa0d8f7f4
+      nameplate-visible: 'false'
