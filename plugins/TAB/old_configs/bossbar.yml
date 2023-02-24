@@ -8,14 +8,19 @@
 #the entity will be slightly visible when progress is less than ~50% (client-sided bug)
 #only 1 line can be displayed at a time
 
-#you can also announce a message using /tab announce bar <bar name> <duration in seconds> (does not support animations yet)
+#you can also announce a message using /tab announce bar <bar name> <duration in seconds>
 
 bossbar-enabled: false
-refresh-interval-milliseconds: 1000
 bossbar-toggle-command: /bossbar
+
+#tab.togglebar
+permission-required-to-toggle: false
 
 #saving toggle decision into playerdata.yml to keep it saved after reloads/restarts
 remember-toggle-choice: false
+
+#initially hidden until players run toggle command
+hidden-by-default: false
 
 #to have no default bars, set it to 
 #default-bars: []
@@ -27,17 +32,14 @@ per-world:
 
 bars:
   ServerInfo:
-    #tab.bossbar.<name>, in this case tab.bossbar.ServerInfo
-    permission-required: false
-    refresh: 1000
+    #all 4 settings support placeholders including animations, you can use it to achieve changing text
     style: "PROGRESS"
     color: "%animation:barcolors%"
     progress: "100" # in %
     text: "&fWebsite: &bwww.domain.com"
   test:
-    permission-required: false
-    refresh: 100
+    display-condition: "permission:tab.bossbar.test"
     style: PROGRESS
     color: WHITE
-    progress: "%animation:test%"
+    progress: "100"
     text: "test"

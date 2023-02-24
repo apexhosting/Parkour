@@ -1,45 +1,10 @@
-# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
-header-footer:
-  enabled: true
-  disable-in-worlds:
-  - disabledworld
-  header:
-  - ''
-  - '&7&lAPEX &4&lPARKOUR'
-  - ''
-  - '&7Welcome &c%player%!'
-  - '&7Online players: &c%online%'
-  - ''
-  footer:
-  - ''
-  - '%animation:time%'
-  - '%animation:ping-tps%'
-  - ''
-  - '&cparkour.apexmc.co'
-  per-world:
-    world1:
-      header:
-      - an example of world with custom
-      footer:
-      - header/footer and prefix/suffix
-    world2;world3:
-      header:
-      - This is a shared header for
-      - world2 and world3
-tablist-name-formatting:
-  enabled: true
-  align-tabsuffix-on-the-right: false
-  character-width-overrides: {}
-  anti-override: true
-  disable-in-worlds:
-  - disabledworld
 scoreboard-teams:
   enabled: true
-  enable-collision: true
   invisible-nametags: false
   anti-override: true
+  enable-collision: true
   sorting-types:
-  - GROUPS:owner,admin,staff,mod,helper,player,default
+  - GROUPS:OWNER,ADMIN,Dev,MOD,VIP,Member
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   disable-in-worlds:
@@ -48,7 +13,7 @@ scoreboard-teams:
     enabled: false
     use-marker-tag-for-1-8-x-clients: false
     disable-on-boats: true
-    space-between-lines: 0.22
+    space-between-lines: true
     disable-in-worlds:
     - disabledworld
     dynamic-lines:
@@ -58,6 +23,40 @@ scoreboard-teams:
     - another
     static-lines:
       myCustomLine: 0.66
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&7&lAPEX &b&lPARKOUR'
+  - '&7--------------'
+  - '&bWelcome &7&l%nick%&a!'
+  - '&7Online players: &3%online%'
+  - '%animation:ping-tps%'
+  - ''
+  - '&7---------------------------------------'
+  footer:
+  - '&7---------------------------------------'
+  - '%animation:time%'
+  - ''
+  - '&7Visit our webpage &bapexminecrafthosting.com'
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
 yellow-number-in-tablist:
   enabled: true
   value: '%ping%'
@@ -66,7 +65,7 @@ yellow-number-in-tablist:
 belowname-objective:
   enabled: false
   number: '%health%'
-  text: '&cHealth'
+  text: Health
   disable-in-worlds:
   - disabledworld
 prevent-spectator-effect:
@@ -76,16 +75,22 @@ bossbar:
   toggle-command: /bossbar
   remember-toggle-choice: false
   hidden-by-default: false
-  disable-in-worlds:
-  - disabledworld
+  default-bars:
+  - ServerInfo
   bars:
     ServerInfo:
       style: PROGRESS
       color: '%animation:barcolors%'
       progress: '100'
       text: '&fWebsite: &bwww.domain.com'
+    test:
+      display-condition: permission:tab.bossbar.test;%world%=testworld
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: test
 per-world-playerlist:
-  enabled: true
+  enabled: false
   allow-bypass-permission: false
   ignore-effect-in-worlds:
   - ignoredworld
@@ -105,80 +110,60 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
   disable-in-worlds:
   - disabledworld
+  respect-other-plugins: true
   scoreboards:
     admin:
       display-condition: permission:tab.scoreboard.admin
+      if-condition-not-met: scoreboard1
       title: Admin scoreboard
-      lines:
-      - '%animation:MyAnimation1%'
-      - '&6Online:'
-      - '* &eOnline&7: &f%online%&7/&4%maxplayers%'
-      - '* &eCurrent World&7: &f%worldonline%'
-      - '* &eStaff&7: &f%staffonline%'
-      - ''
-      - '&6Server Info:'
-      - '* &bTPS&7: %tps%'
-      - '* &bUptime&7: &f%server_uptime%'
-      - '* &bMemory&7: &f%memory-used%&7/&4%memory-max%'
-      - '%animation:MyAnimation1%'
+      lines: []
     scoreboard1:
       title: Default
       lines:
-      - '%animation:MyAnimation1%'
-      - '&6My Stats:'
-      - '* &eKills&7: &f%statistic_player_kills%'
-      - '* &eDeaths&7: &f%statistic_deaths%'
-      - '* &eHealth&7: &f%health%'
-      - ''
-      - '&6Personal Info:'
-      - '* &bRank&7: &f%rank%'
-      - '* &bPing&7: &f%ping%&7ms'
-      - '* &bWorld&7: &f%world%'
-      - '%animation:MyAnimation1%'
+      - Scoreboard for players
+    twscoreboard:
+      title: TestWorld
+      lines:
+      - This is scoreboard for everyone in testworld world
+      display-condition: '%world%=testworld'
 ping-spoof:
   enabled: false
-  value: 0
 fix-pet-names:
   enabled: false
 placeholders:
   date-format: dd.MM.yyyy
   time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
 placeholder-output-replacements:
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''
+  '%tps%':
+    '20': '&aPerfect'
   '%afk%':
-    true: ' &o[AFK]&r'
-    false: ''
-  '%essentials_nickname%':
-    '%essentials_nickname%': '%player%'
-conditions:
-  nick:
-    conditions:
-    - '%player%=%essentials_nickname%'
-    true: '%player%'
-    false: ~%essentials_nickname%
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions: {}
 placeholderapi-refresh-intervals:
-  default-refresh-interval: 500
+  default-refresh-interval: 100
   server:
     '%server_uptime%': 1000
     '%server_tps_1_colored%': 1000
-    '%server_unique_joins%': 5000
   player:
     '%player_health%': 200
     '%player_ping%': 1000
     '%vault_prefix%': 1000
   relational:
-    '%rel_factionsuuid_relation_color%': 1000
+    '%rel_factionsuuid_relation_color%': 500
 assign-groups-by-permissions: false
 primary-group-finding-list:
 - Owner
 - Admin
-- Mod
 - Helper
 - default
 debug: false
