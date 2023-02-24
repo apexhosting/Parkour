@@ -1,0 +1,6 @@
+Welcome:
+  location: spawn, -243.400, 30.200, 295.458
+  lines:
+  - 'ICON: red_mushroom'
+  - '&3&lWelcome To Parkour {player}'
+  - '&5You have won %parkour_parkoins% times'

@@ -1,0 +1,55 @@
+Courses:
+- journey
+- kingdom
+- rainbow
+- tower
+- treetops
+- valley
+treetops:
+  Creator: robert_beckley
+  Views: 9
+  Completed: 0
+  XP: 0
+  World: world
+  Parkoins: 1
+  Ready: true
+valley:
+  Creator: robert_beckley
+  Views: 31
+  Completed: 2
+  XP: 0
+  World: spawn
+  Parkoins: 1
+  Ready: true
+kingdom:
+  Creator: robert_beckley
+  Views: 15
+  Completed: 5
+  XP: 0
+  World: spawn
+  Parkoins: 1
+  Ready: true
+rainbow:
+  Creator: robert_beckley
+  Views: 66
+  Completed: 45
+  XP: 0
+  World: spawn
+  Parkoins: 1
+  Ready: true
+journey:
+  Creator: robert_beckley
+  Views: 10
+  Completed: 1
+  XP: 0
+  World: Straight_Parkour
+  Parkoins: 1
+  Ready: true
+tower:
+  Creator: robert_beckley
+  Views: 12
+  Completed: 0
+  XP: 0
+  World: spawn
+  Parkoins: 1
+  Ready: true
