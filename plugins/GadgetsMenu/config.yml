@@ -8,10 +8,10 @@ Player-Data:
   Storage: sqlite
   MySQL:
     hostname: mysql.apexhosting.gdn
-    username: apexMC178195
-    database: apexMC178195
+    username: mysql_user
+    database: mysql_db
     port: '3306'
-    password: 6f6faa721a
+    password: mysql_password
     useSSL: false
 Cosmetic-Item-Purchase:
   # Set to true allows player to purchase cosmetic items.
