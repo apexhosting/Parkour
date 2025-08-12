@@ -1,0 +1,24 @@
+{
+   "LastPlayed": "tower",
+   "Snapshot": {
+      "GameMode": "SURVIVAL",
+      "Hunger": 13,
+      "Health": 20,
+      "Armor": "rO0ABXVyACFbTG9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFjazuWEWyPcqQUzwIAAHhwAAAA\nBHBwcHA=\n",
+      "XPLevel": 0,
+      "Inventory": "rO0ABXVyACFbTG9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFjazuWEWyPcqQUzwIAAHhwAAAA\nKXBwcHNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGph\ndmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAk\nU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2\nYWx1ZXNxAH4ABnhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09\ndAABdnQABHR5cGV1cQB+AAgAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IA\nEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVy\nhqyVHQuU4IsCAAB4cAAAD/J0ABJCTFVFX1NUQUlORURfR0xBU1NwcHBwcHBwcHBwcHBwcHBwcHBw\ncHBwcHBwcHBwcHBwcHBwcHBw\n"
+   },
+   "ExistingSessionCourseName": "tower",
+   "Stats": {
+      "TotalTime": 382333,
+      "TotalDeaths": 19
+   },
+   "JoinLocation": {
+      "world": "spawn",
+      "x": -230.80658808015573,
+      "y": 26,
+      "z": 283.37270273268183,
+      "pitch": -8.100265,
+      "yaw": 174.71748
+   }
+}

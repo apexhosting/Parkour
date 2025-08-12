@@ -1,0 +1,98 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "0": {"Location": {
+         "world": "spawn",
+         "x": -906.6009981117783,
+         "y": 15,
+         "z": 264.7269782520759,
+         "pitch": 2.5498776,
+         "yaw": 1.7556332
+      }},
+      "1": {
+         "CheckpointX": -891,
+         "CheckpointY": 21,
+         "CheckpointZ": 301,
+         "Location": {
+            "world": "spawn",
+            "x": -890.5,
+            "y": 22.5,
+            "z": 301.5,
+            "pitch": 73.32159,
+            "yaw": -175.9377
+         }
+      },
+      "2": {
+         "CheckpointX": -884,
+         "CheckpointY": 13,
+         "CheckpointZ": 253,
+         "Location": {
+            "world": "spawn",
+            "x": -883.5,
+            "y": 14.5,
+            "z": 253.5,
+            "pitch": 74.05253,
+            "yaw": 167.55467
+         }
+      },
+      "3": {
+         "CheckpointX": -932,
+         "CheckpointY": 7,
+         "CheckpointZ": 248,
+         "Location": {
+            "world": "spawn",
+            "x": -931.5,
+            "y": 8.5,
+            "z": 248.5,
+            "pitch": 75.9796,
+            "yaw": 89.00828
+         }
+      },
+      "4": {
+         "CheckpointX": -968,
+         "CheckpointY": 4,
+         "CheckpointZ": 244,
+         "Location": {
+            "world": "spawn",
+            "x": -967.5,
+            "y": 5.5,
+            "z": 244.5,
+            "pitch": 71.593666,
+            "yaw": 87.014694
+         }
+      },
+      "5": {
+         "CheckpointX": -967,
+         "CheckpointY": 10,
+         "CheckpointZ": 242,
+         "Location": {
+            "world": "spawn",
+            "x": -966.5,
+            "y": 11.5,
+            "z": 242.5,
+            "pitch": 78.30538,
+            "yaw": 96.21164
+         }
+      },
+      "6": {
+         "CheckpointX": -1011,
+         "CheckpointY": 5,
+         "CheckpointZ": 231,
+         "Location": {
+            "world": "spawn",
+            "x": -1010.5,
+            "y": 6.5,
+            "z": 231.5,
+            "pitch": 87.40926,
+            "yaw": 92.09195
+         }
+      }
+   },
+   "Views": 58,
+   "Parkoins": 1,
+   "Checkpoints": 6,
+   "Completed": 4,
+   "XP": 0,
+   "Creator": "robert_beckley",
+   "Name": "valley"
+}

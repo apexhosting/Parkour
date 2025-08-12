@@ -1,0 +1,32 @@
+{
+   "LastPlayed": "valley",
+   "Snapshot": {
+      "GameMode": "SURVIVAL",
+      "Hunger": 20,
+      "Health": 20,
+      "Armor": "rO0ABXVyACFbTG9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFjazuWEWyPcqQUzwIAAHhwAAAA\nBHBwcHA=\n",
+      "XPLevel": 0,
+      "Inventory": "rO0ABXVyACFbTG9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFjazuWEWyPcqQUzwIAAHhwAAAA\nKXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEv\ndXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2Vy\naWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1\nZXNxAH4ABnhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAB\ndnQABHR5cGV0AAZhbW91bnR1cQB+AAgAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0\nYWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu\nTnVtYmVyhqyVHQuU4IsCAAB4cAAAD/J0AAdESUFNT05Ec3EAfgAQAAAAB3BwcHBwcHBwcHBwcHBw\ncHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHA=\n"
+   },
+   "ExistingSessionCourseName": "valley",
+   "LastRewarded": {
+      "rainbow": 1737174224326,
+      "journey": 1737248789834,
+      "valley": 1737175706075,
+      "kingdom": 1737173973727,
+      "tower": 1737248367789
+   },
+   "Stats": {
+      "TotalTime": 5674527,
+      "TotalDeaths": 37
+   },
+   "LastCompleted": "journey",
+   "JoinLocation": {
+      "world": "spawn",
+      "x": -227.4639166578346,
+      "y": 26,
+      "z": 307.5003605677267,
+      "pitch": -1.8603989,
+      "yaw": -28.442436
+   }
+}

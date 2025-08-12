@@ -1,0 +1,16 @@
+location: spawn:-243.400:30.200:295.458
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: cherry_sapling'
+    height: 0.8
+  - content: '&#00FFE0W&#09F5E1e&#12EBE2l&#1BE2E4c&#24D8E5o&#2DCEE6m&#36C4E7e &#48B1EAT&#51A7EBo &#6393EDP&#6C89EEa&#767FF0r&#7F76F1k&#886CF2o&#9162F3u&#9A58F4r &#AC45F7{player}'
+    height: 0.6
+  - content: '&#084CFBJ&#0C50FBu&#1054FBm&#1458FBp &#1C60FCt&#2064FCo &#296BFCy&#2D6FFCo&#3173FCu&#3577FDr &#3D7FFDh&#4183FDe&#4587FDa&#498BFDr&#4D8FFDt&#5193FE`&#5597FEs content!'
+    height: 0.6
+  actions: {}

@@ -1,0 +1,31 @@
+default: 
+   MOSSY_COBBLESTONE: 
+      Action: bounce
+      Strength: 5.0
+      Duration: 200
+   GOLD_BLOCK: 
+      Action: norun
+   BROWN_MUSHROOM_BLOCK: 
+      Action: nopotion
+   OBSIDIAN: 
+      Action: speed
+      Strength: 5.0
+      Duration: 200
+   BRICKS: 
+      Action: climb
+      Strength: 0.4
+   RED_MUSHROOM_BLOCK: 
+      Action: finish
+   CHISELED_STONE_BRICKS: 
+      Action: death
+   OAK_LOG: 
+      Action: death
+   END_STONE: 
+      Action: repulse
+      Strength: 0.4
+   STRUCTURE_BLOCK: 
+      Action: repulse
+      Strength: 0.4
+   EMERALD_BLOCK: 
+      Action: launch
+      Strength: 1.2

@@ -1,0 +1,85 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "0": {"Location": {
+         "world": "spawn",
+         "x": -1063.5,
+         "y": 4.5,
+         "z": 525.5,
+         "pitch": 1.1998479,
+         "yaw": 183.54416
+      }},
+      "1": {
+         "CheckpointX": -1064,
+         "CheckpointY": 9,
+         "CheckpointZ": 517,
+         "Location": {
+            "world": "spawn",
+            "x": -1063.5,
+            "y": 10.5,
+            "z": 517.5,
+            "pitch": -0.3000424,
+            "yaw": 184.59573
+         }
+      },
+      "2": {
+         "CheckpointX": -1065,
+         "CheckpointY": 3,
+         "CheckpointZ": 501,
+         "Location": {
+            "world": "spawn",
+            "x": -1064.5,
+            "y": 4.5,
+            "z": 501.5,
+            "pitch": 13.499725,
+            "yaw": 93.54558
+         }
+      },
+      "3": {
+         "CheckpointX": -1064,
+         "CheckpointY": 8,
+         "CheckpointZ": 497,
+         "Location": {
+            "world": "spawn",
+            "x": -1063.5,
+            "y": 9.5,
+            "z": 497.5,
+            "pitch": 70.95044,
+            "yaw": -180.35448
+         }
+      },
+      "4": {
+         "CheckpointX": -1064,
+         "CheckpointY": 3,
+         "CheckpointZ": 457,
+         "Location": {
+            "world": "spawn",
+            "x": -1063.5,
+            "y": 4.5,
+            "z": 457.5,
+            "pitch": 21.749548,
+            "yaw": 179.19472
+         }
+      },
+      "5": {
+         "CheckpointX": -1064,
+         "CheckpointY": 3,
+         "CheckpointZ": 407,
+         "Location": {
+            "world": "spawn",
+            "x": -1063.5,
+            "y": 4.5,
+            "z": 407.5,
+            "pitch": -0.450131,
+            "yaw": 176.34552
+         }
+      }
+   },
+   "Views": 22,
+   "Parkoins": 1,
+   "Checkpoints": 5,
+   "Completed": 6,
+   "XP": 0,
+   "Creator": "robert_beckley",
+   "Name": "kingdom"
+}

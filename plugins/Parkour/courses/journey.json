@@ -1,0 +1,592 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "22": {
+         "CheckpointX": -213,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -212.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 82.49992,
+            "yaw": -271.2162
+         }
+      },
+      "44": {
+         "CheckpointX": -533,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -532.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 90,
+            "yaw": -268.06348
+         }
+      },
+      "23": {
+         "CheckpointX": -229,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -228.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 68.39985,
+            "yaw": -268.66724
+         }
+      },
+      "24": {
+         "CheckpointX": -237,
+         "CheckpointY": 59,
+         "CheckpointZ": 43,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -236.5,
+            "y": 60.5,
+            "z": 43.5,
+            "pitch": 87.0002,
+            "yaw": -269.85614
+         }
+      },
+      "25": {
+         "CheckpointX": -245,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -244.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 73.80005,
+            "yaw": -276.7611
+         }
+      },
+      "26": {
+         "CheckpointX": -261,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -260.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 85.34995,
+            "yaw": -256.36224
+         }
+      },
+      "27": {
+         "CheckpointX": -277,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -276.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.7,
+            "yaw": -267.46387
+         }
+      },
+      "28": {
+         "CheckpointX": -293,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -292.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 90,
+            "yaw": -258.61536
+         }
+      },
+      "29": {
+         "CheckpointX": -309,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -308.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.399994,
+            "yaw": -257.56927
+         }
+      },
+      "30": {
+         "CheckpointX": -325,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -324.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 88.64999,
+            "yaw": -277.67383
+         }
+      },
+      "31": {
+         "CheckpointX": -341,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -340.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 82.80002,
+            "yaw": -269.72266
+         }
+      },
+      "10": {
+         "CheckpointX": -37,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -36.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 88.050446,
+            "yaw": -264.02448
+         }
+      },
+      "32": {
+         "CheckpointX": -344,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -343.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 75.44985,
+            "yaw": -270.01495
+         }
+      },
+      "11": {
+         "CheckpointX": -53,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -52.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 68.55025,
+            "yaw": -276.47644
+         }
+      },
+      "33": {
+         "CheckpointX": -357,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -356.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 80.700096,
+            "yaw": -269.865
+         }
+      },
+      "12": {
+         "CheckpointX": -69,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -68.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.7,
+            "yaw": -282.03375
+         }
+      },
+      "34": {
+         "CheckpointX": -373,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -372.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 79.20036,
+            "yaw": -263.5664
+         }
+      },
+      "13": {
+         "CheckpointX": -85,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -84.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 90,
+            "yaw": -268.68274
+         }
+      },
+      "35": {
+         "CheckpointX": -389,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -388.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 87.75045,
+            "yaw": -270.6194
+         }
+      },
+      "14": {
+         "CheckpointX": -101,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -100.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 63.899734,
+            "yaw": -270.18274
+         }
+      },
+      "36": {
+         "CheckpointX": -405,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -404.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.70048,
+            "yaw": -261.0193
+         }
+      },
+      "15": {
+         "CheckpointX": -104,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -103.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 76.799866,
+            "yaw": -266.26636
+         }
+      },
+      "37": {
+         "CheckpointX": -421,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -420.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 70.95031,
+            "yaw": -274.22058
+         }
+      },
+      "16": {
+         "CheckpointX": -117,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -116.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 86.24996,
+            "yaw": -267.4693
+         }
+      },
+      "38": {
+         "CheckpointX": -437,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -436.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 77.55044,
+            "yaw": -257.4209
+         }
+      },
+      "17": {
+         "CheckpointX": -133,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -132.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 75.749855,
+            "yaw": -264.7663
+         }
+      },
+      "39": {
+         "CheckpointX": -453,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -452.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 80.84991,
+            "yaw": -273.01678
+         }
+      },
+      "18": {
+         "CheckpointX": -149,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -148.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 81.300224,
+            "yaw": -268.51678
+         }
+      },
+      "19": {
+         "CheckpointX": -165,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -164.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 81.00022,
+            "yaw": -267.76544
+         }
+      },
+      "0": {"Location": {
+         "world": "Straight_Parkour",
+         "x": 123.5,
+         "y": 60.5,
+         "z": 45.5,
+         "pitch": -5.1001215,
+         "yaw": -263.555
+      }},
+      "1": {
+         "CheckpointX": 107,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 107.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 87.599976,
+            "yaw": -267.45868
+         }
+      },
+      "2": {
+         "CheckpointX": 91,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 91.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 84.89995,
+            "yaw": -272.41412
+         }
+      },
+      "3": {
+         "CheckpointX": 75,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 75.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 86.69997,
+            "yaw": -268.96765
+         }
+      },
+      "4": {
+         "CheckpointX": 59,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 59.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 82.94993,
+            "yaw": -271.37164
+         }
+      },
+      "5": {
+         "CheckpointX": 43,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 43.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 78.449875,
+            "yaw": -261.46716
+         }
+      },
+      "6": {
+         "CheckpointX": 27,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 27.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.55009,
+            "yaw": -277.0681
+         }
+      },
+      "7": {
+         "CheckpointX": 11,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": 11.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.40016,
+            "yaw": -261.92755
+         }
+      },
+      "8": {
+         "CheckpointX": -5,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -4.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 88.34998,
+            "yaw": -268.82184
+         }
+      },
+      "9": {
+         "CheckpointX": -21,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -20.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 87.89998,
+            "yaw": -266.2735
+         }
+      },
+      "40": {
+         "CheckpointX": -469,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -468.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 79.64992,
+            "yaw": -263.71436
+         }
+      },
+      "41": {
+         "CheckpointX": -485,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -484.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 79.04991,
+            "yaw": -264.91406
+         }
+      },
+      "20": {
+         "CheckpointX": -181,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -180.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.399994,
+            "yaw": -268.8164
+         }
+      },
+      "42": {
+         "CheckpointX": -501,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -500.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.85,
+            "yaw": -268.96063
+         }
+      },
+      "21": {
+         "CheckpointX": -197,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -196.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 89.24999,
+            "yaw": -259.6646
+         }
+      },
+      "43": {
+         "CheckpointX": -517,
+         "CheckpointY": 59,
+         "CheckpointZ": 45,
+         "Location": {
+            "world": "Straight_Parkour",
+            "x": -516.5,
+            "y": 60.5,
+            "z": 45.5,
+            "pitch": 85.34995,
+            "yaw": -273.01178
+         }
+      }
+   },
+   "Views": 15,
+   "Parkoins": 1,
+   "Checkpoints": 44,
+   "Completed": 3,
+   "XP": 0,
+   "Creator": "robert_beckley",
+   "Name": "journey"
+}

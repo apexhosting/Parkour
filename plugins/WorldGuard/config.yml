@@ -3,19 +3,9 @@ regions:
         perform-on-next-start: false
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
-    disable-bypass-by-default: false
-    announce-bypass-status: false
-    sql:
-        use: false
-        dsn: jdbc:mysql://localhost/worldguard
-        username: worldguard
-        password: worldguard
-        table-prefix: ''
-    use-paper-entity-origin: false
     enable: true
     invincibility-removes-mobs: false
-    cancel-chat-without-recipients: true
-    nether-portal-protection: true
+    nether-portal-protection: false
     fake-player-build-override: true
     explosion-flags-block-entity-damage: true
     high-frequency-flags: false
@@ -26,13 +16,17 @@ regions:
     location-flags-only-inside-regions: false
     max-region-count-per-player:
         default: 7
+    use-paper-entity-origin: false
+    cancel-chat-without-recipients: true
+    disable-bypass-by-default: false
+    announce-bypass-status: false
+    set-parent-on-claim: ''
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
 use-player-move-event: true
 use-player-teleports: true
 use-particle-effects: true
-disable-permission-cache: false
 security:
     deop-everyone-on-join: false
     block-in-game-op-command: false
@@ -53,17 +47,11 @@ protection:
     item-durability: true
     remove-infinite-stacks: false
     disable-xp-orb-drops: false
-    disable-obsidian-generators: false
     use-max-priority-association: false
 gameplay:
     block-potions: []
     block-potions-overly-reliably: false
     disable-conduit-effects: false
-simulation:
-    sponge:
-        enable: false
-        radius: 3
-        redstone: false
 default:
     pumpkin-scuba: false
     disable-health-regain: false
@@ -78,7 +66,7 @@ ignition:
     block-tnt-block-damage: false
     block-lighter: false
 fire:
-    disable-lava-fire-spread: false
+    disable-lava-fire-spread: true
     disable-all-fire-spread: false
     disable-fire-spread-blocks: []
     lava-spread-blocks: []
@@ -104,8 +92,9 @@ mobs:
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false
-    block-vehicle-entry: false
     block-creature-spawn: []
+    block-vehicle-entry: false
+    block-windcharge-explosions: false
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -117,17 +106,11 @@ player-damage:
     teleport-on-suffocation: false
     disable-void-damage: false
     teleport-on-void-falling: false
-    reset-fall-on-void-teleport: false
     disable-explosion-damage: false
     disable-mob-damage: false
     disable-death-messages: false
-chest-protection:
-    enable: false
-    disable-off-check: false
+    reset-fall-on-void-teleport: false
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
-turtle-egg:
     disable-creature-trampling: false
     disable-player-trampling: false
 weather:
@@ -136,10 +119,10 @@ weather:
     disable-thunderstorm: false
     disable-weather: false
     disable-pig-zombification: false
-    disable-villager-witchification: false
     disable-powered-creepers: false
     always-raining: false
     always-thundering: false
+    disable-villager-witchification: false
 dynamics:
     disable-mushroom-spread: false
     disable-ice-melting: false
@@ -150,10 +133,14 @@ dynamics:
     disable-grass-growth: false
     disable-mycelium-spread: false
     disable-vine-growth: false
-    disable-crop-growth: false
     disable-soil-dehydration: false
-    disable-coral-block-fade: false
     snow-fall-blocks: []
+    disable-crop-growth: false
+    disable-coral-block-fade: false
+    disable-rock-growth: false
+    disable-sculk-growth: false
+    disable-soil-moisture-change: false
+    disable-copper-block-fade: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -169,6 +156,10 @@ blacklist:
             enable: false
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
-custom-metrics-charts: true
-extra-timings:
-    session-handlers: true
+disable-permission-cache: false
+turtle-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false
+sniffer-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false

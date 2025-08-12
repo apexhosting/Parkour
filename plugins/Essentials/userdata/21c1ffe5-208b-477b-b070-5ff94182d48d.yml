@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 199.19.164.155
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1737157297687
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737263304871
+  login: 1737263256466
+money: '0'
+last-account-name: MerKaiRain
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: -829.4857853530903
+  y: 42.57664083319354
+  z: 135.90298877854698
+  yaw: 95.45352935791016
+  pitch: 8.929266929626465
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: -906.6009981117783
+  y: 15.0
+  z: 264.7269782520759
+  yaw: -15.389076232910156
+  pitch: 2.616326332092285

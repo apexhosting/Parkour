@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 199.19.164.155
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737244166508
+  login: 1737244115552
+money: '0'
+last-account-name: AX400_Dessy
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: 0.0
+  y: 4.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: -226.56870438205442
+  y: 26.0
+  z: 296.3801531059338
+  yaw: 159.1176300048828
+  pitch: 12.449760437011719

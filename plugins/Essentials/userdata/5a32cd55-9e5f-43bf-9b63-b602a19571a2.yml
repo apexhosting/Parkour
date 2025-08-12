@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.194.197.186
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737262643586
+  login: 1737262269742
+money: '0'
+last-account-name: Chesvin1
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: 0.0
+  y: 4.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: spawn
+  x: -958.8709792145769
+  y: 3.0
+  z: 429.49087596333874
+  yaw: 95.51919555664062
+  pitch: 22.79973602294922

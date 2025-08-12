@@ -1,7 +1,0 @@
-worlds:
-  parkour_world:
-    spawnpoint: parkour_world:-20.48750551565568:87.0:1462.5522808930473:-18.000326:-4.0500655
-    y-void: -64.0
-    enabled: true
-    keep-inventory: true
-    nether: false

@@ -1,0 +1,85 @@
+{
+   "Ready": false,
+   "Checkpoint": {
+      "0": {"Location": {
+         "world": "spawn",
+         "x": -959.5,
+         "y": 3.5,
+         "z": 430.5,
+         "pitch": -3.3002882,
+         "yaw": 307.76904
+      }},
+      "1": {
+         "CheckpointX": -967,
+         "CheckpointY": 12,
+         "CheckpointZ": 418,
+         "Location": {
+            "world": "spawn",
+            "x": -966.5,
+            "y": 13.5,
+            "z": 418.5,
+            "pitch": 73.349915,
+            "yaw": 279.87036
+         }
+      },
+      "2": {
+         "CheckpointX": -960,
+         "CheckpointY": 33,
+         "CheckpointZ": 430,
+         "Location": {
+            "world": "spawn",
+            "x": -959.5,
+            "y": 34.5,
+            "z": 430.5,
+            "pitch": 90,
+            "yaw": 84.71878
+         }
+      },
+      "3": {
+         "CheckpointX": -974,
+         "CheckpointY": 57,
+         "CheckpointZ": 427,
+         "Location": {
+            "world": "spawn",
+            "x": -973.5,
+            "y": 58.5,
+            "z": 427.5,
+            "pitch": 78.299904,
+            "yaw": 185.83154
+         }
+      },
+      "4": {
+         "CheckpointX": -973,
+         "CheckpointY": 98,
+         "CheckpointZ": 436,
+         "Location": {
+            "world": "spawn",
+            "x": -972.5,
+            "y": 99.5,
+            "z": 436.5,
+            "pitch": 79.7999,
+            "yaw": 197.70374
+         }
+      },
+      "5": {
+         "CheckpointX": -959,
+         "CheckpointY": 195,
+         "CheckpointZ": 432,
+         "Location": {
+            "world": "spawn",
+            "x": -958.5,
+            "y": 196.5,
+            "z": 432.5,
+            "pitch": 76.50012,
+            "yaw": 31.227905
+         }
+      }
+   },
+   "Views": 21,
+   "Parkoins": 1,
+   "Checkpoints": 5,
+   "Completed": 1,
+   "XP": 0,
+   "Creator": "robert_beckley",
+   "Name": "tower"
+}

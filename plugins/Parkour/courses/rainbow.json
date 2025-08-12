@@ -1,0 +1,59 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "0": {"Location": {
+         "world": "spawn",
+         "x": -862.5,
+         "y": 7.5,
+         "z": 343.5,
+         "pitch": 3.4495559,
+         "yaw": -356.30908
+      }},
+      "1": {
+         "CheckpointX": -862,
+         "CheckpointY": 6,
+         "CheckpointZ": 398,
+         "Location": {
+            "world": "spawn",
+            "x": -861.5,
+            "y": 7.5,
+            "z": 398.5,
+            "pitch": 68.99982,
+            "yaw": -355.26923
+         }
+      },
+      "2": {
+         "CheckpointX": -894,
+         "CheckpointY": 6,
+         "CheckpointZ": 408,
+         "Location": {
+            "world": "spawn",
+            "x": -893.5,
+            "y": 7.5,
+            "z": 408.5,
+            "pitch": 19.049805,
+            "yaw": -261.97797
+         }
+      },
+      "3": {
+         "CheckpointX": -900,
+         "CheckpointY": 6,
+         "CheckpointZ": 364,
+         "Location": {
+            "world": "spawn",
+            "x": -899.5,
+            "y": 7.5,
+            "z": 364.5,
+            "pitch": 11.99978,
+            "yaw": -175.27582
+         }
+      }
+   },
+   "Views": 79,
+   "Parkoins": 1,
+   "Checkpoints": 3,
+   "Completed": 46,
+   "XP": 0,
+   "Creator": "robert_beckley",
+   "Name": "rainbow"
+}
